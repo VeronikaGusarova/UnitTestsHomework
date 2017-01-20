@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="87" result="Failed" total="87" passed="68" failed="19" inconclusive="0" skipped="0" asserts="72" engine-version="3.6.0.0" clr-version="4.0.30319.42000" start-time="2017-01-20 11:07:11Z" end-time="2017-01-20 11:07:13Z" duration="2.226877">
+  <command-line><![CDATA[nunit3-console.exe  C:\Users\Home\Desktop\UnitTestingHomework\UnitTestingHomework\bin\Debug\UnitTestingHomework.dll]]></command-line>
+  <test-suite type="Assembly" id="0-1123" name="UnitTestingHomework.dll" fullname="C:\Users\Home\Desktop\UnitTestingHomework\UnitTestingHomework\bin\Debug\UnitTestingHomework.dll" runstate="Runnable" testcasecount="87" result="Failed" site="Child" start-time="2017-01-20 11:07:12Z" end-time="2017-01-20 11:07:13Z" duration="0.477016" total="87" passed="68" failed="19" warnings="0" inconclusive="0" skipped="0" asserts="72">
+    <environment framework-version="3.6.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Users\Home\Desktop\UnitTestingHomework\packages\NUnit.ConsoleRunner.3.6.0\tools" machine-name="HOME-PC" user="Home" user-domain="Home-PC" culture="en-US" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="C:\Users\Home\Desktop\UnitTestingHomework\packages\NUnit.ConsoleRunner.3.6.0\tools" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.5.2" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="NumberOfTestWorkers" value="2" />
+    </settings>
+    <properties>
+      <property name="_PID" value="4832" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="TestSuite" id="0-1124" name="UnitTestingHomework" fullname="UnitTestingHomework" runstate="Runnable" testcasecount="87" result="Failed" site="Child" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.436054" total="87" passed="68" failed="19" warnings="0" inconclusive="0" skipped="0" asserts="72">
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestFixture" id="0-1000" name="AbsNUnitTests" fullname="UnitTestingHomework.AbsNUnitTests" classname="UnitTestingHomework.AbsNUnitTests" runstate="Runnable" testcasecount="19" result="Failed" site="Child" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.194995" total="19" passed="10" failed="9" warnings="0" inconclusive="0" skipped="0" asserts="14">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="ParameterizedMethod" id="0-1009" name="AbsByteNumbersTest" fullname="UnitTestingHomework.AbsNUnitTests.AbsByteNumbersTest" classname="UnitTestingHomework.AbsNUnitTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.057862" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="3">
+          <test-case id="0-1006" name="AbsByteNumbersTest(0)" fullname="UnitTestingHomework.AbsNUnitTests.AbsByteNumbersTest(0)" methodname="AbsByteNumbersTest" classname="UnitTestingHomework.AbsNUnitTests" runstate="Runnable" seed="1461917945" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.037059" asserts="1" />
+          <test-case id="0-1007" name="AbsByteNumbersTest(-127)" fullname="UnitTestingHomework.AbsNUnitTests.AbsByteNumbersTest(-127)" methodname="AbsByteNumbersTest" classname="UnitTestingHomework.AbsNUnitTests" runstate="Runnable" seed="1965730817" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000191" asserts="1" />
+          <test-case id="0-1008" name="AbsByteNumbersTest(127)" fullname="UnitTestingHomework.AbsNUnitTests.AbsByteNumbersTest(127)" methodname="AbsByteNumbersTest" classname="UnitTestingHomework.AbsNUnitTests" runstate="Runnable" seed="1312555335" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000088" asserts="1" />
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="0-1015" name="AbsDoubleNumbersTest" fullname="UnitTestingHomework.AbsNUnitTests.AbsDoubleNumbersTest" classname="UnitTestingHomework.AbsNUnitTests" runstate="Runnable" testcasecount="5" result="Failed" site="Child" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.080950" total="5" passed="0" failed="5" warnings="0" inconclusive="0" skipped="0" asserts="3">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="0-1010" name="AbsDoubleNumbersTest(1.6354E-16d)" fullname="UnitTestingHomework.AbsNUnitTests.AbsDoubleNumbersTest(1.6354E-16d)" methodname="AbsDoubleNumbersTest" classname="UnitTestingHomework.AbsNUnitTests" runstate="Runnable" seed="1223687174" result="Failed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.056882" asserts="1">
+            <failure>
+              <message><![CDATA[  Expected: 0.0d
+  But was:  1.6353999999999999E-16d
+]]></message>
+              <stack-trace><![CDATA[at UnitTestingHomework.AbsNUnitTests.AbsDoubleNumbersTest(Double num) in C:\Users\Home\Desktop\UnitTestingHomework\UnitTestingHomework\AbsNUnitTests.cs:line 33
+]]></stack-trace>
+            </failure>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Expected: 0.0d
+  But was:  1.6353999999999999E-16d
+]]></message>
+                <stack-trace><![CDATA[at UnitTestingHomework.AbsNUnitTests.AbsDoubleNumbersTest(Double num) in C:\Users\Home\Desktop\UnitTestingHomework\UnitTestingHomework\AbsNUnitTests.cs:line 33
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="0-1011" name="AbsDoubleNumbersTest(15.098123d)" fullname="UnitTestingHomework.AbsNUnitTests.AbsDoubleNumbersTest(15.098123d)" methodname="AbsDoubleNumbersTest" classname="UnitTestingHomework.AbsNUnitTests" runstate="Runnable" seed="1611699156" result="Failed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.002379" asserts="1">
+            <failure>
+              <message><![CDATA[  Expected: 15.0d
+  But was:  15.098122999999999d
+]]></message>
+              <stack-trace><![CDATA[at UnitTestingHomework.AbsNUnitTests.AbsDoubleNumbersTest(Double num) in C:\Users\Home\Desktop\UnitTestingHomework\UnitTestingHomework\AbsNUnitTests.cs:line 33
+]]></stack-trace>
+            </failure>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Expected: 15.0d
+  But was:  15.098122999999999d
+]]></message>
+                <stack-trace><![CDATA[at UnitTestingHomework.AbsNUnitTests.AbsDoubleNumbersTest(Double num) in C:\Users\Home\Desktop\UnitTestingHomework\UnitTestingHomework\AbsNUnitTests.cs:line 33
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="0-1012" name="AbsDoubleNumbersTest(-19.069713d)" fullname="UnitTestingHomework.AbsNUnitTests.AbsDoubleNumbersTest(-19.069713d)" methodname="AbsDoubleNumbersTest" classname="UnitTestingHomework.AbsNUnitTests" runstate="Runnable" seed="1704887404" result="Failed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.001521" asserts="1">
+            <failure>
+              <message><![CDATA[  Expected: 19.0d
+  But was:  19.069713d
+]]></message>
+              <stack-trace><![CDATA[at UnitTestingHomework.AbsNUnitTests.AbsDoubleNumbersTest(Double num) in C:\Users\Home\Desktop\UnitTestingHomework\UnitTestingHomework\AbsNUnitTests.cs:line 33
+]]></stack-trace>
+            </failure>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Expected: 19.0d
+  But was:  19.069713d
+]]></message>
+                <stack-trace><![CDATA[at UnitTestingHomework.AbsNUnitTests.AbsDoubleNumbersTest(Double num) in C:\Users\Home\Desktop\UnitTestingHomework\UnitTestingHomework\AbsNUnitTests.cs:line 33
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="0-1013" name="AbsDoubleNumbersTest(double.MaxValue)" fullname="UnitTestingHomework.AbsNUnitTests.AbsDoubleNumbersTest(double.MaxValue)" methodname="AbsDoubleNumbersTest" classname="UnitTestingHomework.AbsNUnitTests" runstate="Runnable" seed="909119761" result="Failed" label="Error" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.008572" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+              <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Abs(Object a)
+   at UnitTestingHomework.AbsNUnitTests.AbsDoubleNumbersTest(Double num) in C:\Users\Home\Desktop\UnitTestingHomework\UnitTestingHomework\AbsNUnitTests.cs:line 33]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="0-1014" name="AbsDoubleNumbersTest(double.MinValue)" fullname="UnitTestingHomework.AbsNUnitTests.AbsDoubleNumbersTest(double.MinValue)" methodname="AbsDoubleNumbersTest" classname="UnitTestingHomework.AbsNUnitTests" runstate="Runnable" seed="1564065601" result="Failed" label="Error" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.001415" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+              <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Abs(Object a)
+   at UnitTestingHomework.AbsNUnitTests.AbsDoubleNumbersTest(Double num) in C:\Users\Home\Desktop\UnitTestingHomework\UnitTestingHomework\AbsNUnitTests.cs:line 33]]></stack-trace>
+            </failure>
+          </test-case>
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="0-1019" name="AbsFloatNumbersTest" fullname="UnitTestingHomework.AbsNUnitTests.AbsFloatNumbersTest" classname="UnitTestingHomework.AbsNUnitTests" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.010620" total="3" passed="0" failed="3" warnings="0" inconclusive="0" skipped="0" asserts="1">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="0-1016" name="AbsFloatNumbersTest(-3187.09f)" fullname="UnitTestingHomework.AbsNUnitTests.AbsFloatNumbersTest(-3187.09f)" methodname="AbsFloatNumbersTest" classname="UnitTestingHomework.AbsNUnitTests" runstate="Runnable" seed="68495808" result="Failed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.003048" asserts="1">
+            <failure>
+              <message><![CDATA[  Expected: 3187.0d
+  But was:  3187.09009f
+]]></message>
+              <stack-trace><![CDATA[at UnitTestingHomework.AbsNUnitTests.AbsFloatNumbersTest(Single num) in C:\Users\Home\Desktop\UnitTestingHomework\UnitTestingHomework\AbsNUnitTests.cs:line 41
+]]></stack-trace>
+            </failure>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Expected: 3187.0d
+  But was:  3187.09009f
+]]></message>
+                <stack-trace><![CDATA[at UnitTestingHomework.AbsNUnitTests.AbsFloatNumbersTest(Single num) in C:\Users\Home\Desktop\UnitTestingHomework\UnitTestingHomework\AbsNUnitTests.cs:line 41
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="0-1017" name="AbsFloatNumbersTest(float.MaxValue)" fullname="UnitTestingHomework.AbsNUnitTests.AbsFloatNumbersTest(float.MaxValue)" methodname="AbsFloatNumbersTest" classname="UnitTestingHomework.AbsNUnitTests" runstate="Runnable" seed="521165074" result="Failed" label="Error" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.001784" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+              <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Abs(Object a)
+   at UnitTestingHomework.AbsNUnitTests.AbsFloatNumbersTest(Single num) in C:\Users\Home\Desktop\UnitTestingHomework\UnitTestingHomework\AbsNUnitTests.cs:line 41]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="0-1018" name="AbsFloatNumbersTest(float.MinValue)" fullname="UnitTestingHomework.AbsNUnitTests.AbsFloatNumbersTest(float.MinValue)" methodname="AbsFloatNumbersTest" classname="UnitTestingHomework.AbsNUnitTests" runstate="Runnable" seed="568373052" result="Failed" label="Error" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.001253" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+              <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Abs(Object a)
+   at UnitTestingHomework.AbsNUnitTests.AbsFloatNumbersTest(Single num) in C:\Users\Home\Desktop\UnitTestingHomework\UnitTestingHomework\AbsNUnitTests.cs:line 41]]></stack-trace>
+            </failure>
+          </test-case>
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="0-1005" name="AbsIntNumbersTest" fullname="UnitTestingHomework.AbsNUnitTests.AbsIntNumbersTest" classname="UnitTestingHomework.AbsNUnitTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.012020" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+          <test-case id="0-1001" name="AbsIntNumbersTest(0)" fullname="UnitTestingHomework.AbsNUnitTests.AbsIntNumbersTest(0)" methodname="AbsIntNumbersTest" classname="UnitTestingHomework.AbsNUnitTests" runstate="Runnable" seed="1874740925" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000521" asserts="1" />
+          <test-case id="0-1002" name="AbsIntNumbersTest(-1)" fullname="UnitTestingHomework.AbsNUnitTests.AbsIntNumbersTest(-1)" methodname="AbsIntNumbersTest" classname="UnitTestingHomework.AbsNUnitTests" runstate="Runnable" seed="527627109" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000117" asserts="1" />
+          <test-case id="0-1003" name="AbsIntNumbersTest(1)" fullname="UnitTestingHomework.AbsNUnitTests.AbsIntNumbersTest(1)" methodname="AbsIntNumbersTest" classname="UnitTestingHomework.AbsNUnitTests" runstate="Runnable" seed="414240285" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000177" asserts="1" />
+          <test-case id="0-1004" name="AbsIntNumbersTest(int.MaxValue)" fullname="UnitTestingHomework.AbsNUnitTests.AbsIntNumbersTest(int.MaxValue)" methodname="AbsIntNumbersTest" classname="UnitTestingHomework.AbsNUnitTests" runstate="Runnable" seed="544989" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000118" asserts="1" />
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="0-1024" name="AbsStringNumbersTest" fullname="UnitTestingHomework.AbsNUnitTests.AbsStringNumbersTest" classname="UnitTestingHomework.AbsNUnitTests" runstate="Runnable" testcasecount="4" result="Failed" site="Child" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.015058" total="4" passed="3" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="3">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="0-1020" name="AbsStringNumbersTest(&quot;0&quot;)" fullname="UnitTestingHomework.AbsNUnitTests.AbsStringNumbersTest(&quot;0&quot;)" methodname="AbsStringNumbersTest" classname="UnitTestingHomework.AbsNUnitTests" runstate="Runnable" seed="1096689875" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.005852" asserts="1" />
+          <test-case id="0-1021" name="AbsStringNumbersTest(&quot;4743&quot;)" fullname="UnitTestingHomework.AbsNUnitTests.AbsStringNumbersTest(&quot;4743&quot;)" methodname="AbsStringNumbersTest" classname="UnitTestingHomework.AbsNUnitTests" runstate="Runnable" seed="445476553" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000106" asserts="1" />
+          <test-case id="0-1022" name="AbsStringNumbersTest(&quot;-7986&quot;)" fullname="UnitTestingHomework.AbsNUnitTests.AbsStringNumbersTest(&quot;-7986&quot;)" methodname="AbsStringNumbersTest" classname="UnitTestingHomework.AbsNUnitTests" runstate="Runnable" seed="496798776" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000122" asserts="1" />
+          <test-case id="0-1023" name="AbsStringNumbersTest(&quot;-4.743&quot;)" fullname="UnitTestingHomework.AbsNUnitTests.AbsStringNumbersTest(&quot;-4.743&quot;)" methodname="AbsStringNumbersTest" classname="UnitTestingHomework.AbsNUnitTests" runstate="Runnable" seed="300445386" result="Failed" label="Error" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.002371" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+              <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Abs(Object a)
+   at UnitTestingHomework.AbsNUnitTests.AbsStringNumbersTest(String num) in C:\Users\Home\Desktop\UnitTestingHomework\UnitTestingHomework\AbsNUnitTests.cs:line 53]]></stack-trace>
+            </failure>
+          </test-case>
+        </test-suite>
+      </test-suite>
+      <test-suite type="TestFixture" id="0-1025" name="AddNUnitTests" fullname="UnitTestingHomework.AddNUnitTests" classname="UnitTestingHomework.AddNUnitTests" runstate="Runnable" testcasecount="15" result="Failed" site="Child" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.057077" total="15" passed="5" failed="10" warnings="0" inconclusive="0" skipped="0" asserts="5">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="ParameterizedMethod" id="0-1031" name="AddByteNumbersTest" fullname="UnitTestingHomework.AddNUnitTests.AddByteNumbersTest" classname="UnitTestingHomework.AddNUnitTests" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.004993" total="1" passed="0" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="0">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="0-1030" name="AddByteNumbersTest(0,5)" fullname="UnitTestingHomework.AddNUnitTests.AddByteNumbersTest(0,5)" methodname="AddByteNumbersTest" classname="UnitTestingHomework.AddNUnitTests" runstate="Runnable" seed="1762725200" result="Failed" label="Error" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.003417" asserts="0">
+            <failure>
+              <message><![CDATA[System.InvalidCastException : Specified cast is not valid.]]></message>
+              <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Add(Object a, Object b)
+   at UnitTestingHomework.AddNUnitTests.AddByteNumbersTest(SByte num1, SByte num2) in C:\Users\Home\Desktop\UnitTestingHomework\UnitTestingHomework\AddNUnitTests.cs:line 20]]></stack-trace>
+            </failure>
+          </test-case>
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="0-1037" name="AddDoubleNumbersTest" fullname="UnitTestingHomework.AddNUnitTests.AddDoubleNumbersTest" classname="UnitTestingHomework.AddNUnitTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.010004" total="5" passed="5" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="5">
+          <test-case id="0-1032" name="AddDoubleNumbersTest(7.9d,-7.3d)" fullname="UnitTestingHomework.AddNUnitTests.AddDoubleNumbersTest(7.9d,-7.3d)" methodname="AddDoubleNumbersTest" classname="UnitTestingHomework.AddNUnitTests" runstate="Runnable" seed="634155841" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000493" asserts="1" />
+          <test-case id="0-1033" name="AddDoubleNumbersTest(1.6354E-16d,1.87E-05d)" fullname="UnitTestingHomework.AddNUnitTests.AddDoubleNumbersTest(1.6354E-16d,1.87E-05d)" methodname="AddDoubleNumbersTest" classname="UnitTestingHomework.AddNUnitTests" runstate="Runnable" seed="1594155507" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000110" asserts="1" />
+          <test-case id="0-1034" name="AddDoubleNumbersTest(15.098123d,5.7884d)" fullname="UnitTestingHomework.AddNUnitTests.AddDoubleNumbersTest(15.098123d,5.7884d)" methodname="AddDoubleNumbersTest" classname="UnitTestingHomework.AddNUnitTests" runstate="Runnable" seed="1967227270" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000107" asserts="1" />
+          <test-case id="0-1035" name="AddDoubleNumbersTest(double.MaxValue,56.87686d)" fullname="UnitTestingHomework.AddNUnitTests.AddDoubleNumbersTest(double.MaxValue,56.87686d)" methodname="AddDoubleNumbersTest" classname="UnitTestingHomework.AddNUnitTests" runstate="Runnable" seed="372894792" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000164" asserts="1" />
+          <test-case id="0-1036" name="AddDoubleNumbersTest(double.MinValue,-56.87686d)" fullname="UnitTestingHomework.AddNUnitTests.AddDoubleNumbersTest(double.MinValue,-56.87686d)" methodname="AddDoubleNumbersTest" classname="UnitTestingHomework.AddNUnitTests" runstate="Runnable" seed="1650093266" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000102" asserts="1" />
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="0-1041" name="AddFloatNumbersTest" fullname="UnitTestingHomework.AddNUnitTests.AddFloatNumbersTest" classname="UnitTestingHomework.AddNUnitTests" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.009943" total="3" passed="0" failed="3" warnings="0" inconclusive="0" skipped="0" asserts="0">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="0-1038" name="AddFloatNumbersTest(-3187.09f,868.69f)" fullname="UnitTestingHomework.AddNUnitTests.AddFloatNumbersTest(-3187.09f,868.69f)" methodname="AddFloatNumbersTest" classname="UnitTestingHomework.AddNUnitTests" runstate="Runnable" seed="2088125845" result="Failed" label="Error" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.001745" asserts="0">
+            <failure>
+              <message><![CDATA[System.InvalidCastException : Specified cast is not valid.]]></message>
+              <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Add(Object a, Object b)
+   at UnitTestingHomework.AddNUnitTests.AddFloatNumbersTest(Single num1, Single num2) in C:\Users\Home\Desktop\UnitTestingHomework\UnitTestingHomework\AddNUnitTests.cs:line 38]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="0-1039" name="AddFloatNumbersTest(float.MaxValue,-567.8f)" fullname="UnitTestingHomework.AddNUnitTests.AddFloatNumbersTest(float.MaxValue,-567.8f)" methodname="AddFloatNumbersTest" classname="UnitTestingHomework.AddNUnitTests" runstate="Runnable" seed="397269554" result="Failed" label="Error" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.001299" asserts="0">
+            <failure>
+              <message><![CDATA[System.InvalidCastException : Specified cast is not valid.]]></message>
+              <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Add(Object a, Object b)
+   at UnitTestingHomework.AddNUnitTests.AddFloatNumbersTest(Single num1, Single num2) in C:\Users\Home\Desktop\UnitTestingHomework\UnitTestingHomework\AddNUnitTests.cs:line 38]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="0-1040" name="AddFloatNumbersTest(float.MinValue,686.89f)" fullname="UnitTestingHomework.AddNUnitTests.AddFloatNumbersTest(float.MinValue,686.89f)" methodname="AddFloatNumbersTest" classname="UnitTestingHomework.AddNUnitTests" runstate="Runnable" seed="1011710610" result="Failed" label="Error" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.001869" asserts="0">
+            <failure>
+              <message><![CDATA[System.InvalidCastException : Specified cast is not valid.]]></message>
+              <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Add(Object a, Object b)
+   at UnitTestingHomework.AddNUnitTests.AddFloatNumbersTest(Single num1, Single num2) in C:\Users\Home\Desktop\UnitTestingHomework\UnitTestingHomework\AddNUnitTests.cs:line 38]]></stack-trace>
+            </failure>
+          </test-case>
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="0-1029" name="AddIntNumbersTest" fullname="UnitTestingHomework.AddNUnitTests.AddIntNumbersTest" classname="UnitTestingHomework.AddNUnitTests" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.010032" total="3" passed="0" failed="3" warnings="0" inconclusive="0" skipped="0" asserts="0">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="0-1026" name="AddIntNumbersTest(0,0)" fullname="UnitTestingHomework.AddNUnitTests.AddIntNumbersTest(0,0)" methodname="AddIntNumbersTest" classname="UnitTestingHomework.AddNUnitTests" runstate="Runnable" seed="1870520466" result="Failed" label="Error" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.002716" asserts="0">
+            <failure>
+              <message><![CDATA[System.InvalidCastException : Specified cast is not valid.]]></message>
+              <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Add(Object a, Object b)
+   at UnitTestingHomework.AddNUnitTests.AddIntNumbersTest(Int32 num1, Int32 num2) in C:\Users\Home\Desktop\UnitTestingHomework\UnitTestingHomework\AddNUnitTests.cs:line 14]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="0-1027" name="AddIntNumbersTest(-1,-1)" fullname="UnitTestingHomework.AddNUnitTests.AddIntNumbersTest(-1,-1)" methodname="AddIntNumbersTest" classname="UnitTestingHomework.AddNUnitTests" runstate="Runnable" seed="1653159790" result="Failed" label="Error" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.001139" asserts="0">
+            <failure>
+              <message><![CDATA[System.InvalidCastException : Specified cast is not valid.]]></message>
+              <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Add(Object a, Object b)
+   at UnitTestingHomework.AddNUnitTests.AddIntNumbersTest(Int32 num1, Int32 num2) in C:\Users\Home\Desktop\UnitTestingHomework\UnitTestingHomework\AddNUnitTests.cs:line 14]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="0-1028" name="AddIntNumbersTest(100,200)" fullname="UnitTestingHomework.AddNUnitTests.AddIntNumbersTest(100,200)" methodname="AddIntNumbersTest" classname="UnitTestingHomework.AddNUnitTests" runstate="Runnable" seed="2072782302" result="Failed" label="Error" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.001143" asserts="0">
+            <failure>
+              <message><![CDATA[System.InvalidCastException : Specified cast is not valid.]]></message>
+              <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Add(Object a, Object b)
+   at UnitTestingHomework.AddNUnitTests.AddIntNumbersTest(Int32 num1, Int32 num2) in C:\Users\Home\Desktop\UnitTestingHomework\UnitTestingHomework\AddNUnitTests.cs:line 14]]></stack-trace>
+            </failure>
+          </test-case>
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="0-1045" name="AddStringNumbersTest" fullname="UnitTestingHomework.AddNUnitTests.AddStringNumbersTest" classname="UnitTestingHomework.AddNUnitTests" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.011130" total="3" passed="0" failed="3" warnings="0" inconclusive="0" skipped="0" asserts="0">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="0-1042" name="AddStringNumbersTest(&quot;0&quot;,&quot;87&quot;)" fullname="UnitTestingHomework.AddNUnitTests.AddStringNumbersTest(&quot;0&quot;,&quot;87&quot;)" methodname="AddStringNumbersTest" classname="UnitTestingHomework.AddNUnitTests" runstate="Runnable" seed="1823025717" result="Failed" label="Error" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.001945" asserts="0">
+            <failure>
+              <message><![CDATA[System.InvalidCastException : Specified cast is not valid.]]></message>
+              <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Add(Object a, Object b)
+   at UnitTestingHomework.AddNUnitTests.AddStringNumbersTest(String num1, String num2) in C:\Users\Home\Desktop\UnitTestingHomework\UnitTestingHomework\AddNUnitTests.cs:line 49]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="0-1043" name="AddStringNumbersTest(&quot;4743&quot;,&quot;8.67&quot;)" fullname="UnitTestingHomework.AddNUnitTests.AddStringNumbersTest(&quot;4743&quot;,&quot;8.67&quot;)" methodname="AddStringNumbersTest" classname="UnitTestingHomework.AddNUnitTests" runstate="Runnable" seed="1602415284" result="Failed" label="Error" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.001162" asserts="0">
+            <failure>
+              <message><![CDATA[System.InvalidCastException : Specified cast is not valid.]]></message>
+              <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Add(Object a, Object b)
+   at UnitTestingHomework.AddNUnitTests.AddStringNumbersTest(String num1, String num2) in C:\Users\Home\Desktop\UnitTestingHomework\UnitTestingHomework\AddNUnitTests.cs:line 49]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="0-1044" name="AddStringNumbersTest(&quot;-7986.89&quot;,&quot;86.79&quot;)" fullname="UnitTestingHomework.AddNUnitTests.AddStringNumbersTest(&quot;-7986.89&quot;,&quot;86.79&quot;)" methodname="AddStringNumbersTest" classname="UnitTestingHomework.AddNUnitTests" runstate="Runnable" seed="1478395220" result="Failed" label="Error" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.002589" asserts="0">
+            <failure>
+              <message><![CDATA[System.InvalidCastException : Specified cast is not valid.]]></message>
+              <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Add(Object a, Object b)
+   at UnitTestingHomework.AddNUnitTests.AddStringNumbersTest(String num1, String num2) in C:\Users\Home\Desktop\UnitTestingHomework\UnitTestingHomework\AddNUnitTests.cs:line 49]]></stack-trace>
+            </failure>
+          </test-case>
+        </test-suite>
+      </test-suite>
+      <test-suite type="TestFixture" id="0-1046" name="BaseTest" fullname="UnitTestingHomework.BaseTest" classname="UnitTestingHomework.BaseTest" runstate="Runnable" testcasecount="0" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000104" total="0" passed="0" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0" />
+      <test-suite type="TestFixture" id="0-1047" name="CosNUnitTests" fullname="UnitTestingHomework.CosNUnitTests" classname="UnitTestingHomework.CosNUnitTests" runstate="Runnable" testcasecount="19" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.058898" total="19" passed="19" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="19">
+        <test-suite type="ParameterizedMethod" id="0-1056" name="CosByteNumbersTest" fullname="UnitTestingHomework.CosNUnitTests.CosByteNumbersTest" classname="UnitTestingHomework.CosNUnitTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.005314" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+          <test-case id="0-1054" name="CosByteNumbersTest(-127)" fullname="UnitTestingHomework.CosNUnitTests.CosByteNumbersTest(-127)" methodname="CosByteNumbersTest" classname="UnitTestingHomework.CosNUnitTests" runstate="Runnable" seed="2074891267" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000976" asserts="1" />
+          <test-case id="0-1055" name="CosByteNumbersTest(127)" fullname="UnitTestingHomework.CosNUnitTests.CosByteNumbersTest(127)" methodname="CosByteNumbersTest" classname="UnitTestingHomework.CosNUnitTests" runstate="Runnable" seed="930752062" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000104" asserts="1" />
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="0-1062" name="CosDoubleNumbersTest" fullname="UnitTestingHomework.CosNUnitTests.CosDoubleNumbersTest" classname="UnitTestingHomework.CosNUnitTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.013053" total="5" passed="5" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="5">
+          <test-case id="0-1057" name="CosDoubleNumbersTest(1.6354E-16d)" fullname="UnitTestingHomework.CosNUnitTests.CosDoubleNumbersTest(1.6354E-16d)" methodname="CosDoubleNumbersTest" classname="UnitTestingHomework.CosNUnitTests" runstate="Runnable" seed="1786777269" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000686" asserts="1" />
+          <test-case id="0-1058" name="CosDoubleNumbersTest(15.098123d)" fullname="UnitTestingHomework.CosNUnitTests.CosDoubleNumbersTest(15.098123d)" methodname="CosDoubleNumbersTest" classname="UnitTestingHomework.CosNUnitTests" runstate="Runnable" seed="1065903996" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000099" asserts="1" />
+          <test-case id="0-1059" name="CosDoubleNumbersTest(-19.069713d)" fullname="UnitTestingHomework.CosNUnitTests.CosDoubleNumbersTest(-19.069713d)" methodname="CosDoubleNumbersTest" classname="UnitTestingHomework.CosNUnitTests" runstate="Runnable" seed="281332859" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000104" asserts="1" />
+          <test-case id="0-1060" name="CosDoubleNumbersTest(double.MaxValue)" fullname="UnitTestingHomework.CosNUnitTests.CosDoubleNumbersTest(double.MaxValue)" methodname="CosDoubleNumbersTest" classname="UnitTestingHomework.CosNUnitTests" runstate="Runnable" seed="1057895517" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000127" asserts="1" />
+          <test-case id="0-1061" name="CosDoubleNumbersTest(double.MinValue)" fullname="UnitTestingHomework.CosNUnitTests.CosDoubleNumbersTest(double.MinValue)" methodname="CosDoubleNumbersTest" classname="UnitTestingHomework.CosNUnitTests" runstate="Runnable" seed="1368353701" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000101" asserts="1" />
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="0-1066" name="CosFloatNumbersTest" fullname="UnitTestingHomework.CosNUnitTests.CosFloatNumbersTest" classname="UnitTestingHomework.CosNUnitTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.007078" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="3">
+          <test-case id="0-1063" name="CosFloatNumbersTest(-3187.09f)" fullname="UnitTestingHomework.CosNUnitTests.CosFloatNumbersTest(-3187.09f)" methodname="CosFloatNumbersTest" classname="UnitTestingHomework.CosNUnitTests" runstate="Runnable" seed="530368276" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.001290" asserts="1" />
+          <test-case id="0-1064" name="CosFloatNumbersTest(float.MaxValue)" fullname="UnitTestingHomework.CosNUnitTests.CosFloatNumbersTest(float.MaxValue)" methodname="CosFloatNumbersTest" classname="UnitTestingHomework.CosNUnitTests" runstate="Runnable" seed="1881923121" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000110" asserts="1" />
+          <test-case id="0-1065" name="CosFloatNumbersTest(float.MinValue)" fullname="UnitTestingHomework.CosNUnitTests.CosFloatNumbersTest(float.MinValue)" methodname="CosFloatNumbersTest" classname="UnitTestingHomework.CosNUnitTests" runstate="Runnable" seed="1354440439" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000097" asserts="1" />
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="0-1053" name="CosIntNumbersTest" fullname="UnitTestingHomework.CosNUnitTests.CosIntNumbersTest" classname="UnitTestingHomework.CosNUnitTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.011932" total="5" passed="5" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="5">
+          <test-case id="0-1048" name="CosIntNumbersTest(0)" fullname="UnitTestingHomework.CosNUnitTests.CosIntNumbersTest(0)" methodname="CosIntNumbersTest" classname="UnitTestingHomework.CosNUnitTests" runstate="Runnable" seed="846896624" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000495" asserts="1" />
+          <test-case id="0-1049" name="CosIntNumbersTest(-19646456)" fullname="UnitTestingHomework.CosNUnitTests.CosIntNumbersTest(-19646456)" methodname="CosIntNumbersTest" classname="UnitTestingHomework.CosNUnitTests" runstate="Runnable" seed="528576180" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000110" asserts="1" />
+          <test-case id="0-1050" name="CosIntNumbersTest(8674654)" fullname="UnitTestingHomework.CosNUnitTests.CosIntNumbersTest(8674654)" methodname="CosIntNumbersTest" classname="UnitTestingHomework.CosNUnitTests" runstate="Runnable" seed="1771023732" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000104" asserts="1" />
+          <test-case id="0-1051" name="CosIntNumbersTest(int.MaxValue)" fullname="UnitTestingHomework.CosNUnitTests.CosIntNumbersTest(int.MaxValue)" methodname="CosIntNumbersTest" classname="UnitTestingHomework.CosNUnitTests" runstate="Runnable" seed="1995174082" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.001492" asserts="1" />
+          <test-case id="0-1052" name="CosIntNumbersTest(int.MinValue)" fullname="UnitTestingHomework.CosNUnitTests.CosIntNumbersTest(int.MinValue)" methodname="CosIntNumbersTest" classname="UnitTestingHomework.CosNUnitTests" runstate="Runnable" seed="1803574007" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000116" asserts="1" />
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="0-1071" name="CosStringNumbersTest" fullname="UnitTestingHomework.CosNUnitTests.CosStringNumbersTest" classname="UnitTestingHomework.CosNUnitTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.009706" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+          <test-case id="0-1067" name="CosStringNumbersTest(&quot;0&quot;)" fullname="UnitTestingHomework.CosNUnitTests.CosStringNumbersTest(&quot;0&quot;)" methodname="CosStringNumbersTest" classname="UnitTestingHomework.CosNUnitTests" runstate="Runnable" seed="1670327443" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000714" asserts="1" />
+          <test-case id="0-1068" name="CosStringNumbersTest(&quot;4743&quot;)" fullname="UnitTestingHomework.CosNUnitTests.CosStringNumbersTest(&quot;4743&quot;)" methodname="CosStringNumbersTest" classname="UnitTestingHomework.CosNUnitTests" runstate="Runnable" seed="501488037" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000101" asserts="1" />
+          <test-case id="0-1069" name="CosStringNumbersTest(&quot;-7986.898&quot;)" fullname="UnitTestingHomework.CosNUnitTests.CosStringNumbersTest(&quot;-7986.898&quot;)" methodname="CosStringNumbersTest" classname="UnitTestingHomework.CosNUnitTests" runstate="Runnable" seed="603282708" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000117" asserts="1" />
+          <test-case id="0-1070" name="CosStringNumbersTest(&quot;-4.743&quot;)" fullname="UnitTestingHomework.CosNUnitTests.CosStringNumbersTest(&quot;-4.743&quot;)" methodname="CosStringNumbersTest" classname="UnitTestingHomework.CosNUnitTests" runstate="Runnable" seed="1535963458" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000116" asserts="1" />
+        </test-suite>
+      </test-suite>
+      <test-suite type="TestFixture" id="0-1072" name="DivideNUnitTests" fullname="UnitTestingHomework.DivideNUnitTests" classname="UnitTestingHomework.DivideNUnitTests" runstate="Runnable" testcasecount="14" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.037996" total="14" passed="14" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="14">
+        <test-suite type="ParameterizedMethod" id="0-1080" name="DivideByteNumbersTest" fullname="UnitTestingHomework.DivideNUnitTests.DivideByteNumbersTest" classname="UnitTestingHomework.DivideNUnitTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.003076" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+          <test-case id="0-1079" name="DivideByteNumbersTest(7,5)" fullname="UnitTestingHomework.DivideNUnitTests.DivideByteNumbersTest(7,5)" methodname="DivideByteNumbersTest" classname="UnitTestingHomework.DivideNUnitTests" runstate="Runnable" seed="891893837" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.001363" asserts="1" />
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="0-1086" name="DivideDoubleNumbersTest" fullname="UnitTestingHomework.DivideNUnitTests.DivideDoubleNumbersTest" classname="UnitTestingHomework.DivideNUnitTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.010018" total="5" passed="5" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="5">
+          <test-case id="0-1081" name="DivideDoubleNumbersTest(7.9d,-7.3d)" fullname="UnitTestingHomework.DivideNUnitTests.DivideDoubleNumbersTest(7.9d,-7.3d)" methodname="DivideDoubleNumbersTest" classname="UnitTestingHomework.DivideNUnitTests" runstate="Runnable" seed="354644970" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000488" asserts="1" />
+          <test-case id="0-1082" name="DivideDoubleNumbersTest(1.6354E-16d,1.87E-05d)" fullname="UnitTestingHomework.DivideNUnitTests.DivideDoubleNumbersTest(1.6354E-16d,1.87E-05d)" methodname="DivideDoubleNumbersTest" classname="UnitTestingHomework.DivideNUnitTests" runstate="Runnable" seed="218375065" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000101" asserts="1" />
+          <test-case id="0-1083" name="DivideDoubleNumbersTest(15.098123d,5.7884d)" fullname="UnitTestingHomework.DivideNUnitTests.DivideDoubleNumbersTest(15.098123d,5.7884d)" methodname="DivideDoubleNumbersTest" classname="UnitTestingHomework.DivideNUnitTests" runstate="Runnable" seed="956318021" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000109" asserts="1" />
+          <test-case id="0-1084" name="DivideDoubleNumbersTest(double.MaxValue,56.87686d)" fullname="UnitTestingHomework.DivideNUnitTests.DivideDoubleNumbersTest(double.MaxValue,56.87686d)" methodname="DivideDoubleNumbersTest" classname="UnitTestingHomework.DivideNUnitTests" runstate="Runnable" seed="2130354419" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000119" asserts="1" />
+          <test-case id="0-1085" name="DivideDoubleNumbersTest(double.MinValue,-56.87686d)" fullname="UnitTestingHomework.DivideNUnitTests.DivideDoubleNumbersTest(double.MinValue,-56.87686d)" methodname="DivideDoubleNumbersTest" classname="UnitTestingHomework.DivideNUnitTests" runstate="Runnable" seed="1327146664" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000108" asserts="1" />
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="0-1090" name="DivideFloatNumbersTest" fullname="UnitTestingHomework.DivideNUnitTests.DivideFloatNumbersTest" classname="UnitTestingHomework.DivideNUnitTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.006096" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="3">
+          <test-case id="0-1087" name="DivideFloatNumbersTest(-3187.09f,868.69f)" fullname="UnitTestingHomework.DivideNUnitTests.DivideFloatNumbersTest(-3187.09f,868.69f)" methodname="DivideFloatNumbersTest" classname="UnitTestingHomework.DivideNUnitTests" runstate="Runnable" seed="1213303757" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000480" asserts="1" />
+          <test-case id="0-1088" name="DivideFloatNumbersTest(float.MaxValue,-567.8f)" fullname="UnitTestingHomework.DivideNUnitTests.DivideFloatNumbersTest(float.MaxValue,-567.8f)" methodname="DivideFloatNumbersTest" classname="UnitTestingHomework.DivideNUnitTests" runstate="Runnable" seed="1078859786" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000102" asserts="1" />
+          <test-case id="0-1089" name="DivideFloatNumbersTest(float.MinValue,686.89f)" fullname="UnitTestingHomework.DivideNUnitTests.DivideFloatNumbersTest(float.MinValue,686.89f)" methodname="DivideFloatNumbersTest" classname="UnitTestingHomework.DivideNUnitTests" runstate="Runnable" seed="448587107" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000112" asserts="1" />
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="0-1078" name="DivideIntNumbersTest" fullname="UnitTestingHomework.DivideNUnitTests.DivideIntNumbersTest" classname="UnitTestingHomework.DivideNUnitTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.011167" total="5" passed="5" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="5">
+          <test-case id="0-1073" name="DivideIntNumbersTest(8,3)" fullname="UnitTestingHomework.DivideNUnitTests.DivideIntNumbersTest(8,3)" methodname="DivideIntNumbersTest" classname="UnitTestingHomework.DivideNUnitTests" runstate="Runnable" seed="1730699044" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.001335" asserts="1" />
+          <test-case id="0-1074" name="DivideIntNumbersTest(-5,-6)" fullname="UnitTestingHomework.DivideNUnitTests.DivideIntNumbersTest(-5,-6)" methodname="DivideIntNumbersTest" classname="UnitTestingHomework.DivideNUnitTests" runstate="Runnable" seed="495191779" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000114" asserts="1" />
+          <test-case id="0-1075" name="DivideIntNumbersTest(654,-7)" fullname="UnitTestingHomework.DivideNUnitTests.DivideIntNumbersTest(654,-7)" methodname="DivideIntNumbersTest" classname="UnitTestingHomework.DivideNUnitTests" runstate="Runnable" seed="1562920382" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000264" asserts="1" />
+          <test-case id="0-1076" name="DivideIntNumbersTest(100,0)" fullname="UnitTestingHomework.DivideNUnitTests.DivideIntNumbersTest(100,0)" methodname="DivideIntNumbersTest" classname="UnitTestingHomework.DivideNUnitTests" runstate="Runnable" seed="182046382" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000103" asserts="1" />
+          <test-case id="0-1077" name="DivideIntNumbersTest(0,0)" fullname="UnitTestingHomework.DivideNUnitTests.DivideIntNumbersTest(0,0)" methodname="DivideIntNumbersTest" classname="UnitTestingHomework.DivideNUnitTests" runstate="Runnable" seed="453979038" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000129" asserts="1" />
+        </test-suite>
+      </test-suite>
+      <test-suite type="TestFixture" id="0-1091" name="IsNegativeNUnitTests" fullname="UnitTestingHomework.IsNegativeNUnitTests" classname="UnitTestingHomework.IsNegativeNUnitTests" runstate="Runnable" testcasecount="20" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.059050" total="20" passed="20" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="20">
+        <test-suite type="ParameterizedMethod" id="0-1100" name="IsNegativeByteNumbersTest" fullname="UnitTestingHomework.IsNegativeNUnitTests.IsNegativeByteNumbersTest" classname="UnitTestingHomework.IsNegativeNUnitTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.008152" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+          <test-case id="0-1098" name="IsNegativeByteNumbersTest(-127)" fullname="UnitTestingHomework.IsNegativeNUnitTests.IsNegativeByteNumbersTest(-127)" methodname="IsNegativeByteNumbersTest" classname="UnitTestingHomework.IsNegativeNUnitTests" runstate="Runnable" seed="1280087709" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.002935" asserts="1" />
+          <test-case id="0-1099" name="IsNegativeByteNumbersTest(127)" fullname="UnitTestingHomework.IsNegativeNUnitTests.IsNegativeByteNumbersTest(127)" methodname="IsNegativeByteNumbersTest" classname="UnitTestingHomework.IsNegativeNUnitTests" runstate="Runnable" seed="1683550327" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.001660" asserts="1" />
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="0-1106" name="IsNegativeDoubleNumbersTest" fullname="UnitTestingHomework.IsNegativeNUnitTests.IsNegativeDoubleNumbersTest" classname="UnitTestingHomework.IsNegativeNUnitTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.012066" total="5" passed="5" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="5">
+          <test-case id="0-1101" name="IsNegativeDoubleNumbersTest(1.6354E-16d)" fullname="UnitTestingHomework.IsNegativeNUnitTests.IsNegativeDoubleNumbersTest(1.6354E-16d)" methodname="IsNegativeDoubleNumbersTest" classname="UnitTestingHomework.IsNegativeNUnitTests" runstate="Runnable" seed="428974229" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000601" asserts="1" />
+          <test-case id="0-1102" name="IsNegativeDoubleNumbersTest(15.098123d)" fullname="UnitTestingHomework.IsNegativeNUnitTests.IsNegativeDoubleNumbersTest(15.098123d)" methodname="IsNegativeDoubleNumbersTest" classname="UnitTestingHomework.IsNegativeNUnitTests" runstate="Runnable" seed="1986094904" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000112" asserts="1" />
+          <test-case id="0-1103" name="IsNegativeDoubleNumbersTest(-19.069713d)" fullname="UnitTestingHomework.IsNegativeNUnitTests.IsNegativeDoubleNumbersTest(-19.069713d)" methodname="IsNegativeDoubleNumbersTest" classname="UnitTestingHomework.IsNegativeNUnitTests" runstate="Runnable" seed="1803209462" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000113" asserts="1" />
+          <test-case id="0-1104" name="IsNegativeDoubleNumbersTest(double.MaxValue)" fullname="UnitTestingHomework.IsNegativeNUnitTests.IsNegativeDoubleNumbersTest(double.MaxValue)" methodname="IsNegativeDoubleNumbersTest" classname="UnitTestingHomework.IsNegativeNUnitTests" runstate="Runnable" seed="552208268" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000254" asserts="1" />
+          <test-case id="0-1105" name="IsNegativeDoubleNumbersTest(double.MinValue)" fullname="UnitTestingHomework.IsNegativeNUnitTests.IsNegativeDoubleNumbersTest(double.MinValue)" methodname="IsNegativeDoubleNumbersTest" classname="UnitTestingHomework.IsNegativeNUnitTests" runstate="Runnable" seed="1872520878" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000165" asserts="1" />
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="0-1111" name="IsNegativeFloatNumbersTest" fullname="UnitTestingHomework.IsNegativeNUnitTests.IsNegativeFloatNumbersTest" classname="UnitTestingHomework.IsNegativeNUnitTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.007910" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+          <test-case id="0-1107" name="IsNegativeFloatNumbersTest(3187.09f)" fullname="UnitTestingHomework.IsNegativeNUnitTests.IsNegativeFloatNumbersTest(3187.09f)" methodname="IsNegativeFloatNumbersTest" classname="UnitTestingHomework.IsNegativeNUnitTests" runstate="Runnable" seed="1632470509" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000510" asserts="1" />
+          <test-case id="0-1108" name="IsNegativeFloatNumbersTest(-3187.09f)" fullname="UnitTestingHomework.IsNegativeNUnitTests.IsNegativeFloatNumbersTest(-3187.09f)" methodname="IsNegativeFloatNumbersTest" classname="UnitTestingHomework.IsNegativeNUnitTests" runstate="Runnable" seed="2044851397" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000130" asserts="1" />
+          <test-case id="0-1109" name="IsNegativeFloatNumbersTest(float.MaxValue)" fullname="UnitTestingHomework.IsNegativeNUnitTests.IsNegativeFloatNumbersTest(float.MaxValue)" methodname="IsNegativeFloatNumbersTest" classname="UnitTestingHomework.IsNegativeNUnitTests" runstate="Runnable" seed="2071566431" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000104" asserts="1" />
+          <test-case id="0-1110" name="IsNegativeFloatNumbersTest(float.MinValue)" fullname="UnitTestingHomework.IsNegativeNUnitTests.IsNegativeFloatNumbersTest(float.MinValue)" methodname="IsNegativeFloatNumbersTest" classname="UnitTestingHomework.IsNegativeNUnitTests" runstate="Runnable" seed="160817579" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000114" asserts="1" />
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="0-1097" name="IsNegativeIntNumbersTest" fullname="UnitTestingHomework.IsNegativeNUnitTests.IsNegativeIntNumbersTest" classname="UnitTestingHomework.IsNegativeNUnitTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.011978" total="5" passed="5" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="5">
+          <test-case id="0-1092" name="IsNegativeIntNumbersTest(0)" fullname="UnitTestingHomework.IsNegativeNUnitTests.IsNegativeIntNumbersTest(0)" methodname="IsNegativeIntNumbersTest" classname="UnitTestingHomework.IsNegativeNUnitTests" runstate="Runnable" seed="663684504" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000502" asserts="1" />
+          <test-case id="0-1093" name="IsNegativeIntNumbersTest(-19646456)" fullname="UnitTestingHomework.IsNegativeNUnitTests.IsNegativeIntNumbersTest(-19646456)" methodname="IsNegativeIntNumbersTest" classname="UnitTestingHomework.IsNegativeNUnitTests" runstate="Runnable" seed="1218904885" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000112" asserts="1" />
+          <test-case id="0-1094" name="IsNegativeIntNumbersTest(8674654)" fullname="UnitTestingHomework.IsNegativeNUnitTests.IsNegativeIntNumbersTest(8674654)" methodname="IsNegativeIntNumbersTest" classname="UnitTestingHomework.IsNegativeNUnitTests" runstate="Runnable" seed="898969583" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000407" asserts="1" />
+          <test-case id="0-1095" name="IsNegativeIntNumbersTest(int.MaxValue)" fullname="UnitTestingHomework.IsNegativeNUnitTests.IsNegativeIntNumbersTest(int.MaxValue)" methodname="IsNegativeIntNumbersTest" classname="UnitTestingHomework.IsNegativeNUnitTests" runstate="Runnable" seed="1202952455" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000100" asserts="1" />
+          <test-case id="0-1096" name="IsNegativeIntNumbersTest(int.MinValue)" fullname="UnitTestingHomework.IsNegativeNUnitTests.IsNegativeIntNumbersTest(int.MinValue)" methodname="IsNegativeIntNumbersTest" classname="UnitTestingHomework.IsNegativeNUnitTests" runstate="Runnable" seed="1200416524" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000106" asserts="1" />
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="0-1116" name="IsNegativeStringNumbersTest" fullname="UnitTestingHomework.IsNegativeNUnitTests.IsNegativeStringNumbersTest" classname="UnitTestingHomework.IsNegativeNUnitTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.008966" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+          <test-case id="0-1112" name="IsNegativeStringNumbersTest(&quot;0&quot;)" fullname="UnitTestingHomework.IsNegativeNUnitTests.IsNegativeStringNumbersTest(&quot;0&quot;)" methodname="IsNegativeStringNumbersTest" classname="UnitTestingHomework.IsNegativeNUnitTests" runstate="Runnable" seed="817243456" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000607" asserts="1" />
+          <test-case id="0-1113" name="IsNegativeStringNumbersTest(&quot;4743&quot;)" fullname="UnitTestingHomework.IsNegativeNUnitTests.IsNegativeStringNumbersTest(&quot;4743&quot;)" methodname="IsNegativeStringNumbersTest" classname="UnitTestingHomework.IsNegativeNUnitTests" runstate="Runnable" seed="1733605705" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000122" asserts="1" />
+          <test-case id="0-1114" name="IsNegativeStringNumbersTest(&quot;-7986&quot;)" fullname="UnitTestingHomework.IsNegativeNUnitTests.IsNegativeStringNumbersTest(&quot;-7986&quot;)" methodname="IsNegativeStringNumbersTest" classname="UnitTestingHomework.IsNegativeNUnitTests" runstate="Runnable" seed="1689714956" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000104" asserts="1" />
+          <test-case id="0-1115" name="IsNegativeStringNumbersTest(&quot;-4.743&quot;)" fullname="UnitTestingHomework.IsNegativeNUnitTests.IsNegativeStringNumbersTest(&quot;-4.743&quot;)" methodname="IsNegativeStringNumbersTest" classname="UnitTestingHomework.IsNegativeNUnitTests" runstate="Runnable" seed="115362446" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000095" asserts="1" />
+        </test-suite>
+      </test-suite>
+      <test-suite type="TestFixture" id="0-1117" name="IsPositiveMSTest" fullname="UnitTestingHomework.IsPositiveMSTest" classname="UnitTestingHomework.IsPositiveMSTest" runstate="Runnable" testcasecount="0" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000322" total="0" passed="0" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0" />
+      <test-suite type="TestFixture" id="0-1118" name="MultiplyMSTests" fullname="UnitTestingHomework.MultiplyMSTests" classname="UnitTestingHomework.MultiplyMSTests" runstate="Runnable" testcasecount="0" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000139" total="0" passed="0" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0" />
+      <test-suite type="TestFixture" id="0-1119" name="PowMSTests" fullname="UnitTestingHomework.PowMSTests" classname="UnitTestingHomework.PowMSTests" runstate="Runnable" testcasecount="0" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000133" total="0" passed="0" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0" />
+      <test-suite type="TestFixture" id="0-1120" name="SinMSTests" fullname="UnitTestingHomework.SinMSTests" classname="UnitTestingHomework.SinMSTests" runstate="Runnable" testcasecount="0" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000205" total="0" passed="0" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0" />
+      <test-suite type="TestFixture" id="0-1121" name="SqrtMSTests" fullname="UnitTestingHomework.SqrtMSTests" classname="UnitTestingHomework.SqrtMSTests" runstate="Runnable" testcasecount="0" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000130" total="0" passed="0" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0" />
+      <test-suite type="TestFixture" id="0-1122" name="SubMSTests" fullname="UnitTestingHomework.SubMSTests" classname="UnitTestingHomework.SubMSTests" runstate="Runnable" testcasecount="0" result="Passed" start-time="2017-01-20 11:07:13Z" end-time="2017-01-20 11:07:13Z" duration="0.000136" total="0" passed="0" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0" />
+    </test-suite>
+  </test-suite>
+</test-run>

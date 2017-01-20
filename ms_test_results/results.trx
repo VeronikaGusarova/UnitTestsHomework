@@ -1,0 +1,586 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="38d80d38-6419-49ba-9e59-7858950ec7e9" name="Home@HOME-PC 2017-01-20 15:25:00" runUser="Home-PC\Home" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="bd21bf3e-c3ae-477d-874a-8f34744bae8c">
+    <Deployment userDeploymentRoot="D:\temp" useDefaultDeploymentRoot="false" runDeploymentRoot="Home_HOME-PC 2017-01-20 15_25_00" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Properties />
+  </TestSettings>
+  <Times creation="2017-01-20T15:25:00.7363001+04:00" queuing="2017-01-20T15:25:03.2374432+04:00" start="2017-01-20T15:25:03.6214651+04:00" finish="2017-01-20T15:25:06.9286543+04:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="47" executed="47" passed="37" error="0" failed="10" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="SubMixedNumbersTest3" storage="c:\users\home\desktop\unittestinghomework\unittestinghomework\bin\debug\unittestinghomework.dll" id="c1a7d578-bebc-0035-668e-a3f7086d9e7d">
+      <TestCategory>
+        <TestCategoryItem TestCategory="mixed numbers" />
+      </TestCategory>
+      <Execution id="5866c831-b884-4a03-a84b-e4f84eb30f26" />
+      <TestMethod codeBase="C:/Users/Home/Desktop/UnitTestingHomework/UnitTestingHomework/bin/Debug/UnitTestingHomework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestingHomework.SubMSTests, UnitTestingHomework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SubMixedNumbersTest3" />
+    </UnitTest>
+    <UnitTest name="MultiplyIntNumbersNegativeTest" storage="c:\users\home\desktop\unittestinghomework\unittestinghomework\bin\debug\unittestinghomework.dll" id="041b2adc-4ca3-907d-a5fa-ee973551f9fd">
+      <TestCategory>
+        <TestCategoryItem TestCategory="int numbers" />
+      </TestCategory>
+      <Execution id="36018a79-f8f1-49fe-bcc8-2eb9dd5ddc82" />
+      <TestMethod codeBase="C:/Users/Home/Desktop/UnitTestingHomework/UnitTestingHomework/bin/Debug/UnitTestingHomework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestingHomework.MultiplyMSTests, UnitTestingHomework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MultiplyIntNumbersNegativeTest" />
+    </UnitTest>
+    <UnitTest name="SubMixedNumbersTest" storage="c:\users\home\desktop\unittestinghomework\unittestinghomework\bin\debug\unittestinghomework.dll" id="92fe94c0-eba8-c39e-2116-dc81e1d46801">
+      <TestCategory>
+        <TestCategoryItem TestCategory="mixed numbers" />
+      </TestCategory>
+      <Execution id="443279c6-8cb5-4f17-b79e-258053612c8d" />
+      <TestMethod codeBase="C:/Users/Home/Desktop/UnitTestingHomework/UnitTestingHomework/bin/Debug/UnitTestingHomework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestingHomework.SubMSTests, UnitTestingHomework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SubMixedNumbersTest" />
+    </UnitTest>
+    <UnitTest name="IsPositiveStringNegativeTest" storage="c:\users\home\desktop\unittestinghomework\unittestinghomework\bin\debug\unittestinghomework.dll" id="7d0f9913-3201-629d-ccb4-56f195187412">
+      <TestCategory>
+        <TestCategoryItem TestCategory="string numbers" />
+      </TestCategory>
+      <Execution id="39cf5385-ca2b-43d6-8b3d-2e5e1ccde38d" />
+      <TestMethod codeBase="C:/Users/Home/Desktop/UnitTestingHomework/UnitTestingHomework/bin/Debug/UnitTestingHomework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestingHomework.IsPositiveMSTest, UnitTestingHomework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IsPositiveStringNegativeTest" />
+    </UnitTest>
+    <UnitTest name="IsPositiveDoubleNumbersPositiveTest" storage="c:\users\home\desktop\unittestinghomework\unittestinghomework\bin\debug\unittestinghomework.dll" id="768652fd-fdef-5df4-5c82-92c553df45f7">
+      <TestCategory>
+        <TestCategoryItem TestCategory="double numbers" />
+      </TestCategory>
+      <Execution id="d12617b3-2466-4e0d-b68b-c2aa8d628dc8" />
+      <TestMethod codeBase="C:/Users/Home/Desktop/UnitTestingHomework/UnitTestingHomework/bin/Debug/UnitTestingHomework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestingHomework.IsPositiveMSTest, UnitTestingHomework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IsPositiveDoubleNumbersPositiveTest" />
+    </UnitTest>
+    <UnitTest name="SinIntNumbersTest" storage="c:\users\home\desktop\unittestinghomework\unittestinghomework\bin\debug\unittestinghomework.dll" id="2d88ff5c-1d93-df2a-6540-37ad64f8388d">
+      <TestCategory>
+        <TestCategoryItem TestCategory="int numbers" />
+      </TestCategory>
+      <Execution id="8974738b-54b8-4c10-8c2a-a10087f561de" />
+      <TestMethod codeBase="C:/Users/Home/Desktop/UnitTestingHomework/UnitTestingHomework/bin/Debug/UnitTestingHomework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestingHomework.SinMSTests, UnitTestingHomework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SinIntNumbersTest" />
+    </UnitTest>
+    <UnitTest name="MultiplyIntNumbersZeroTest" storage="c:\users\home\desktop\unittestinghomework\unittestinghomework\bin\debug\unittestinghomework.dll" id="99ff93ca-e34b-c261-d1c6-f4c9bb77d02e">
+      <TestCategory>
+        <TestCategoryItem TestCategory="int numbers" />
+      </TestCategory>
+      <Execution id="4eb67843-3f8b-4422-bb41-1ec40fcc187f" />
+      <TestMethod codeBase="C:/Users/Home/Desktop/UnitTestingHomework/UnitTestingHomework/bin/Debug/UnitTestingHomework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestingHomework.MultiplyMSTests, UnitTestingHomework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MultiplyIntNumbersZeroTest" />
+    </UnitTest>
+    <UnitTest name="SqrtFloatNumbersTest" storage="c:\users\home\desktop\unittestinghomework\unittestinghomework\bin\debug\unittestinghomework.dll" id="855610c7-ff54-0e96-b73e-c560f5a18e40">
+      <TestCategory>
+        <TestCategoryItem TestCategory="float numbers" />
+      </TestCategory>
+      <Execution id="32f97566-a5eb-43b5-a484-c5df140da9eb" />
+      <TestMethod codeBase="C:/Users/Home/Desktop/UnitTestingHomework/UnitTestingHomework/bin/Debug/UnitTestingHomework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestingHomework.SqrtMSTests, UnitTestingHomework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SqrtFloatNumbersTest" />
+    </UnitTest>
+    <UnitTest name="SinStringNumbersTestDouble" storage="c:\users\home\desktop\unittestinghomework\unittestinghomework\bin\debug\unittestinghomework.dll" id="46c85fd4-c139-9efc-0e27-f14790c7d917">
+      <TestCategory>
+        <TestCategoryItem TestCategory="string numbers" />
+      </TestCategory>
+      <Execution id="789960fa-c70b-4ed5-985d-3a4a831f71ac" />
+      <TestMethod codeBase="C:/Users/Home/Desktop/UnitTestingHomework/UnitTestingHomework/bin/Debug/UnitTestingHomework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestingHomework.SinMSTests, UnitTestingHomework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SinStringNumbersTestDouble" />
+    </UnitTest>
+    <UnitTest name="IsPositiveDoubleNumbersNegativeTest" storage="c:\users\home\desktop\unittestinghomework\unittestinghomework\bin\debug\unittestinghomework.dll" id="8437a292-0803-05c7-62cc-9e15994d8b06">
+      <TestCategory>
+        <TestCategoryItem TestCategory="double numbers" />
+      </TestCategory>
+      <Execution id="b0abe24a-9d29-4968-baed-cdc5971f56f1" />
+      <TestMethod codeBase="C:/Users/Home/Desktop/UnitTestingHomework/UnitTestingHomework/bin/Debug/UnitTestingHomework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestingHomework.IsPositiveMSTest, UnitTestingHomework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IsPositiveDoubleNumbersNegativeTest" />
+    </UnitTest>
+    <UnitTest name="SqrtDoubleNumbersTest" storage="c:\users\home\desktop\unittestinghomework\unittestinghomework\bin\debug\unittestinghomework.dll" id="245ce892-056d-5fb9-4bd2-efeb13c5713e">
+      <TestCategory>
+        <TestCategoryItem TestCategory="double numbers" />
+      </TestCategory>
+      <Execution id="5b833577-5175-4177-8237-60133dba5da4" />
+      <TestMethod codeBase="C:/Users/Home/Desktop/UnitTestingHomework/UnitTestingHomework/bin/Debug/UnitTestingHomework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestingHomework.SqrtMSTests, UnitTestingHomework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SqrtDoubleNumbersTest" />
+    </UnitTest>
+    <UnitTest name="PowFloatNumbersTest" storage="c:\users\home\desktop\unittestinghomework\unittestinghomework\bin\debug\unittestinghomework.dll" id="2ba4036d-4259-ef2e-06a6-7943154662f9">
+      <TestCategory>
+        <TestCategoryItem TestCategory="float numbers" />
+      </TestCategory>
+      <Execution id="56ee8b62-4fea-4472-a2c5-9f419ca9091c" />
+      <TestMethod codeBase="C:/Users/Home/Desktop/UnitTestingHomework/UnitTestingHomework/bin/Debug/UnitTestingHomework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestingHomework.PowMSTests, UnitTestingHomework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PowFloatNumbersTest" />
+    </UnitTest>
+    <UnitTest name="SubMixedNumbersTest4" storage="c:\users\home\desktop\unittestinghomework\unittestinghomework\bin\debug\unittestinghomework.dll" id="e1cefd7d-e32b-4e09-4c28-7dbd3893fad4">
+      <TestCategory>
+        <TestCategoryItem TestCategory="mixed numbers" />
+      </TestCategory>
+      <Execution id="a919fabe-e3cd-4260-9f3b-2042c3ce1760" />
+      <TestMethod codeBase="C:/Users/Home/Desktop/UnitTestingHomework/UnitTestingHomework/bin/Debug/UnitTestingHomework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestingHomework.SubMSTests, UnitTestingHomework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SubMixedNumbersTest4" />
+    </UnitTest>
+    <UnitTest name="SinDoubleNumbersTest" storage="c:\users\home\desktop\unittestinghomework\unittestinghomework\bin\debug\unittestinghomework.dll" id="94a6cf98-8814-d42a-0227-6bb79c12b88f">
+      <TestCategory>
+        <TestCategoryItem TestCategory="double numbers" />
+      </TestCategory>
+      <Execution id="a9108f34-a0a7-415e-9ad4-824f2ec13c14" />
+      <TestMethod codeBase="C:/Users/Home/Desktop/UnitTestingHomework/UnitTestingHomework/bin/Debug/UnitTestingHomework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestingHomework.SinMSTests, UnitTestingHomework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SinDoubleNumbersTest" />
+    </UnitTest>
+    <UnitTest name="MultiplyFloatNumbersTest" storage="c:\users\home\desktop\unittestinghomework\unittestinghomework\bin\debug\unittestinghomework.dll" id="db383d55-3a01-075d-2f0f-f4b26d150f42">
+      <TestCategory>
+        <TestCategoryItem TestCategory="float numbers" />
+      </TestCategory>
+      <Execution id="590d8845-048a-40b5-b588-8abfcd1d76d4" />
+      <TestMethod codeBase="C:/Users/Home/Desktop/UnitTestingHomework/UnitTestingHomework/bin/Debug/UnitTestingHomework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestingHomework.MultiplyMSTests, UnitTestingHomework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MultiplyFloatNumbersTest" />
+    </UnitTest>
+    <UnitTest name="IsPositiveByteNumbersTest" storage="c:\users\home\desktop\unittestinghomework\unittestinghomework\bin\debug\unittestinghomework.dll" id="fd5f0db9-6be2-4bd5-63c9-8e4d016100a6">
+      <TestCategory>
+        <TestCategoryItem TestCategory="sbyte numbers" />
+      </TestCategory>
+      <Execution id="04836c5b-6728-4ae0-bb87-2e5daac0504c" />
+      <TestMethod codeBase="C:/Users/Home/Desktop/UnitTestingHomework/UnitTestingHomework/bin/Debug/UnitTestingHomework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestingHomework.IsPositiveMSTest, UnitTestingHomework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IsPositiveByteNumbersTest" />
+    </UnitTest>
+    <UnitTest name="IsPositiveIntNumbersZeroTest" storage="c:\users\home\desktop\unittestinghomework\unittestinghomework\bin\debug\unittestinghomework.dll" id="5a3b6fca-ffc7-1cba-cf31-937ee974e8ed">
+      <TestCategory>
+        <TestCategoryItem TestCategory="int numbers" />
+      </TestCategory>
+      <Execution id="281599f0-ec31-4786-abf8-8dbd9f37d7a3" />
+      <TestMethod codeBase="C:/Users/Home/Desktop/UnitTestingHomework/UnitTestingHomework/bin/Debug/UnitTestingHomework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestingHomework.IsPositiveMSTest, UnitTestingHomework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IsPositiveIntNumbersZeroTest" />
+    </UnitTest>
+    <UnitTest name="IsPositiveDoubleNumbersMinValueTest" storage="c:\users\home\desktop\unittestinghomework\unittestinghomework\bin\debug\unittestinghomework.dll" id="46dc7d0b-58bd-e03a-b79f-02084e0d9f7f">
+      <TestCategory>
+        <TestCategoryItem TestCategory="double numbers" />
+      </TestCategory>
+      <Execution id="3a206037-5b21-4ca8-ae58-255206c62841" />
+      <TestMethod codeBase="C:/Users/Home/Desktop/UnitTestingHomework/UnitTestingHomework/bin/Debug/UnitTestingHomework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestingHomework.IsPositiveMSTest, UnitTestingHomework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IsPositiveDoubleNumbersMinValueTest" />
+    </UnitTest>
+    <UnitTest name="PowDoubleNumbersTest" storage="c:\users\home\desktop\unittestinghomework\unittestinghomework\bin\debug\unittestinghomework.dll" id="83a53e5f-ff81-954c-8db5-3d23688fc71d">
+      <TestCategory>
+        <TestCategoryItem TestCategory="double numbers" />
+      </TestCategory>
+      <Execution id="76a48645-607d-4f88-ba75-7525aa4b856c" />
+      <TestMethod codeBase="C:/Users/Home/Desktop/UnitTestingHomework/UnitTestingHomework/bin/Debug/UnitTestingHomework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestingHomework.PowMSTests, UnitTestingHomework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PowDoubleNumbersTest" />
+    </UnitTest>
+    <UnitTest name="PowStringNumbersTest" storage="c:\users\home\desktop\unittestinghomework\unittestinghomework\bin\debug\unittestinghomework.dll" id="a33c8464-9bb3-c43a-3c5f-78bd0b28219c">
+      <TestCategory>
+        <TestCategoryItem TestCategory="string numbers" />
+      </TestCategory>
+      <Execution id="fe0f3cab-4741-40df-95ef-174fae137647" />
+      <TestMethod codeBase="C:/Users/Home/Desktop/UnitTestingHomework/UnitTestingHomework/bin/Debug/UnitTestingHomework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestingHomework.PowMSTests, UnitTestingHomework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PowStringNumbersTest" />
+    </UnitTest>
+    <UnitTest name="IsPositiveFloatNumbersPositiveTest" storage="c:\users\home\desktop\unittestinghomework\unittestinghomework\bin\debug\unittestinghomework.dll" id="84e2d5da-98ca-c041-6007-433a2bf61cd1">
+      <TestCategory>
+        <TestCategoryItem TestCategory="float numbers" />
+      </TestCategory>
+      <Execution id="14211bfd-5397-4362-b6a2-fe9af15e38d5" />
+      <TestMethod codeBase="C:/Users/Home/Desktop/UnitTestingHomework/UnitTestingHomework/bin/Debug/UnitTestingHomework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestingHomework.IsPositiveMSTest, UnitTestingHomework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IsPositiveFloatNumbersPositiveTest" />
+    </UnitTest>
+    <UnitTest name="PowMixedNumbersTest4" storage="c:\users\home\desktop\unittestinghomework\unittestinghomework\bin\debug\unittestinghomework.dll" id="26f3ee1c-687f-2d84-af54-0112e66ab06b">
+      <TestCategory>
+        <TestCategoryItem TestCategory="mixed numbers" />
+      </TestCategory>
+      <Execution id="8e3e5a92-04d3-438c-8fc2-b6516f7636e1" />
+      <TestMethod codeBase="C:/Users/Home/Desktop/UnitTestingHomework/UnitTestingHomework/bin/Debug/UnitTestingHomework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestingHomework.PowMSTests, UnitTestingHomework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PowMixedNumbersTest4" />
+    </UnitTest>
+    <UnitTest name="SubStringNumbersTest" storage="c:\users\home\desktop\unittestinghomework\unittestinghomework\bin\debug\unittestinghomework.dll" id="386294a2-8e33-ccd8-4019-8ec6ba82e4ee">
+      <TestCategory>
+        <TestCategoryItem TestCategory="string numbers" />
+      </TestCategory>
+      <Execution id="17d770ec-b49a-4151-851f-7bf60498844c" />
+      <TestMethod codeBase="C:/Users/Home/Desktop/UnitTestingHomework/UnitTestingHomework/bin/Debug/UnitTestingHomework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestingHomework.SubMSTests, UnitTestingHomework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SubStringNumbersTest" />
+    </UnitTest>
+    <UnitTest name="SubFloatNumbersTest" storage="c:\users\home\desktop\unittestinghomework\unittestinghomework\bin\debug\unittestinghomework.dll" id="5ab60717-8b71-c313-f2d7-eb98c08d5ce6">
+      <TestCategory>
+        <TestCategoryItem TestCategory="float numbers" />
+      </TestCategory>
+      <Execution id="6e68d8a6-9799-44d5-97e6-82eaad4a07e2" />
+      <TestMethod codeBase="C:/Users/Home/Desktop/UnitTestingHomework/UnitTestingHomework/bin/Debug/UnitTestingHomework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestingHomework.SubMSTests, UnitTestingHomework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SubFloatNumbersTest" />
+    </UnitTest>
+    <UnitTest name="SinStringNumbersTestInt" storage="c:\users\home\desktop\unittestinghomework\unittestinghomework\bin\debug\unittestinghomework.dll" id="41e5dd29-418a-24f3-e25b-6e95bb82e829">
+      <TestCategory>
+        <TestCategoryItem TestCategory="string numbers" />
+      </TestCategory>
+      <Execution id="35de790f-7c4f-4a70-a4e0-d9aea5750b07" />
+      <TestMethod codeBase="C:/Users/Home/Desktop/UnitTestingHomework/UnitTestingHomework/bin/Debug/UnitTestingHomework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestingHomework.SinMSTests, UnitTestingHomework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SinStringNumbersTestInt" />
+    </UnitTest>
+    <UnitTest name="SubIntNumbersTest" storage="c:\users\home\desktop\unittestinghomework\unittestinghomework\bin\debug\unittestinghomework.dll" id="4916647a-3298-f99f-9960-6cbdf33a1d11">
+      <TestCategory>
+        <TestCategoryItem TestCategory="int numbers" />
+      </TestCategory>
+      <Execution id="4d0ac519-cfbc-4d13-bdc8-8c8ec286146b" />
+      <TestMethod codeBase="C:/Users/Home/Desktop/UnitTestingHomework/UnitTestingHomework/bin/Debug/UnitTestingHomework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestingHomework.SubMSTests, UnitTestingHomework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SubIntNumbersTest" />
+    </UnitTest>
+    <UnitTest name="SqrtStringNumbersTestInt" storage="c:\users\home\desktop\unittestinghomework\unittestinghomework\bin\debug\unittestinghomework.dll" id="3ac3f0c6-e474-55b0-66e8-ea07f98a6b2f">
+      <TestCategory>
+        <TestCategoryItem TestCategory="string numbers" />
+      </TestCategory>
+      <Execution id="0369ddcb-e0a6-41f5-aa71-914bdef3e079" />
+      <TestMethod codeBase="C:/Users/Home/Desktop/UnitTestingHomework/UnitTestingHomework/bin/Debug/UnitTestingHomework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestingHomework.SqrtMSTests, UnitTestingHomework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SqrtStringNumbersTestInt" />
+    </UnitTest>
+    <UnitTest name="PowIntNumbersTest" storage="c:\users\home\desktop\unittestinghomework\unittestinghomework\bin\debug\unittestinghomework.dll" id="1d1148c7-d9fc-21ec-06ca-6aaffb44c92c">
+      <TestCategory>
+        <TestCategoryItem TestCategory="int numbers" />
+      </TestCategory>
+      <Execution id="2f9b09e2-dedf-4c86-8f07-f3975b493b49" />
+      <TestMethod codeBase="C:/Users/Home/Desktop/UnitTestingHomework/UnitTestingHomework/bin/Debug/UnitTestingHomework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestingHomework.PowMSTests, UnitTestingHomework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PowIntNumbersTest" />
+    </UnitTest>
+    <UnitTest name="IsPositiveFloatNumbersNegativeTest" storage="c:\users\home\desktop\unittestinghomework\unittestinghomework\bin\debug\unittestinghomework.dll" id="7f8e3b81-de4a-d66f-2311-35338a82126e">
+      <TestCategory>
+        <TestCategoryItem TestCategory="float numbers" />
+      </TestCategory>
+      <Execution id="2b68452c-7b51-4fe5-8090-a2164f72f450" />
+      <TestMethod codeBase="C:/Users/Home/Desktop/UnitTestingHomework/UnitTestingHomework/bin/Debug/UnitTestingHomework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestingHomework.IsPositiveMSTest, UnitTestingHomework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IsPositiveFloatNumbersNegativeTest" />
+    </UnitTest>
+    <UnitTest name="IsPositiveDoubleNumbersSmallPositiveTest" storage="c:\users\home\desktop\unittestinghomework\unittestinghomework\bin\debug\unittestinghomework.dll" id="828ffa48-2a6d-f353-bd3e-d140936600ef">
+      <TestCategory>
+        <TestCategoryItem TestCategory="double numbers" />
+      </TestCategory>
+      <Execution id="2010a29a-61d5-4e5a-bf34-5e737fa5ece2" />
+      <TestMethod codeBase="C:/Users/Home/Desktop/UnitTestingHomework/UnitTestingHomework/bin/Debug/UnitTestingHomework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestingHomework.IsPositiveMSTest, UnitTestingHomework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IsPositiveDoubleNumbersSmallPositiveTest" />
+    </UnitTest>
+    <UnitTest name="SqrtStringNumbersTestDouble" storage="c:\users\home\desktop\unittestinghomework\unittestinghomework\bin\debug\unittestinghomework.dll" id="17b7be58-6acd-6914-6d74-325687f86d65">
+      <TestCategory>
+        <TestCategoryItem TestCategory="string numbers" />
+      </TestCategory>
+      <Execution id="eef0a393-91ac-447a-bfd8-5dbea918c010" />
+      <TestMethod codeBase="C:/Users/Home/Desktop/UnitTestingHomework/UnitTestingHomework/bin/Debug/UnitTestingHomework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestingHomework.SqrtMSTests, UnitTestingHomework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SqrtStringNumbersTestDouble" />
+    </UnitTest>
+    <UnitTest name="IsPositiveStringPositiveTest" storage="c:\users\home\desktop\unittestinghomework\unittestinghomework\bin\debug\unittestinghomework.dll" id="d4e0821d-f375-4eef-1c70-38bcf4d1b8dd">
+      <TestCategory>
+        <TestCategoryItem TestCategory="string numbers" />
+      </TestCategory>
+      <Execution id="70c1a774-4ca7-4ea9-a89c-5933495c2637" />
+      <TestMethod codeBase="C:/Users/Home/Desktop/UnitTestingHomework/UnitTestingHomework/bin/Debug/UnitTestingHomework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestingHomework.IsPositiveMSTest, UnitTestingHomework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IsPositiveStringPositiveTest" />
+    </UnitTest>
+    <UnitTest name="SqrtIntNumbersTest" storage="c:\users\home\desktop\unittestinghomework\unittestinghomework\bin\debug\unittestinghomework.dll" id="c5b94fd9-15b2-0531-17d8-c017b65d12a8">
+      <TestCategory>
+        <TestCategoryItem TestCategory="int numbers" />
+      </TestCategory>
+      <Execution id="5b31c1ce-0a14-4587-9bbb-9972d921e44e" />
+      <TestMethod codeBase="C:/Users/Home/Desktop/UnitTestingHomework/UnitTestingHomework/bin/Debug/UnitTestingHomework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestingHomework.SqrtMSTests, UnitTestingHomework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SqrtIntNumbersTest" />
+    </UnitTest>
+    <UnitTest name="PowMixedNumbersTest3" storage="c:\users\home\desktop\unittestinghomework\unittestinghomework\bin\debug\unittestinghomework.dll" id="df4684e8-7788-9aaf-2d5b-297d7682abe4">
+      <TestCategory>
+        <TestCategoryItem TestCategory="mixed numbers" />
+      </TestCategory>
+      <Execution id="5d9fda51-d9b5-46f0-ba8f-3392d016a5d0" />
+      <TestMethod codeBase="C:/Users/Home/Desktop/UnitTestingHomework/UnitTestingHomework/bin/Debug/UnitTestingHomework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestingHomework.PowMSTests, UnitTestingHomework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PowMixedNumbersTest3" />
+    </UnitTest>
+    <UnitTest name="MultiplyDoubleNumbersTest" storage="c:\users\home\desktop\unittestinghomework\unittestinghomework\bin\debug\unittestinghomework.dll" id="be1708cd-b58a-a441-db11-eee4e4213da0">
+      <TestCategory>
+        <TestCategoryItem TestCategory="double numbers" />
+      </TestCategory>
+      <Execution id="71dba6c1-95e1-4f57-970d-e669916367b9" />
+      <TestMethod codeBase="C:/Users/Home/Desktop/UnitTestingHomework/UnitTestingHomework/bin/Debug/UnitTestingHomework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestingHomework.MultiplyMSTests, UnitTestingHomework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MultiplyDoubleNumbersTest" />
+    </UnitTest>
+    <UnitTest name="SinFloatNumbersTest" storage="c:\users\home\desktop\unittestinghomework\unittestinghomework\bin\debug\unittestinghomework.dll" id="28126a59-4624-51b3-6bab-9835fce91912">
+      <TestCategory>
+        <TestCategoryItem TestCategory="float numbers" />
+      </TestCategory>
+      <Execution id="2aec674c-05e0-4dd3-bd8f-7bd352652954" />
+      <TestMethod codeBase="C:/Users/Home/Desktop/UnitTestingHomework/UnitTestingHomework/bin/Debug/UnitTestingHomework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestingHomework.SinMSTests, UnitTestingHomework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SinFloatNumbersTest" />
+    </UnitTest>
+    <UnitTest name="SqrtSbyteNumbersTest" storage="c:\users\home\desktop\unittestinghomework\unittestinghomework\bin\debug\unittestinghomework.dll" id="165f041d-3404-3a3f-ca14-01011e3ef0c7">
+      <TestCategory>
+        <TestCategoryItem TestCategory="sbyte numbers" />
+      </TestCategory>
+      <Execution id="088dc139-4d29-4313-af49-b676cacd9491" />
+      <TestMethod codeBase="C:/Users/Home/Desktop/UnitTestingHomework/UnitTestingHomework/bin/Debug/UnitTestingHomework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestingHomework.SqrtMSTests, UnitTestingHomework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SqrtSbyteNumbersTest" />
+    </UnitTest>
+    <UnitTest name="PowMixedNumbersTest2" storage="c:\users\home\desktop\unittestinghomework\unittestinghomework\bin\debug\unittestinghomework.dll" id="e5619fac-9c0a-f6a5-a017-7d70e44d7d8f">
+      <TestCategory>
+        <TestCategoryItem TestCategory="mixed numbers" />
+      </TestCategory>
+      <Execution id="9c96c1a6-7988-4743-ad18-9c5a410fdfc4" />
+      <TestMethod codeBase="C:/Users/Home/Desktop/UnitTestingHomework/UnitTestingHomework/bin/Debug/UnitTestingHomework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestingHomework.PowMSTests, UnitTestingHomework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PowMixedNumbersTest2" />
+    </UnitTest>
+    <UnitTest name="SubDoubleNumbersTest" storage="c:\users\home\desktop\unittestinghomework\unittestinghomework\bin\debug\unittestinghomework.dll" id="c9325ba3-cbc3-f0da-9c07-f2b4ea261a4d">
+      <TestCategory>
+        <TestCategoryItem TestCategory="double numbers" />
+      </TestCategory>
+      <Execution id="63561438-c6a3-49a3-b2a0-92b6d1be87ba" />
+      <TestMethod codeBase="C:/Users/Home/Desktop/UnitTestingHomework/UnitTestingHomework/bin/Debug/UnitTestingHomework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestingHomework.SubMSTests, UnitTestingHomework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SubDoubleNumbersTest" />
+    </UnitTest>
+    <UnitTest name="SubMixedNumbersTest2" storage="c:\users\home\desktop\unittestinghomework\unittestinghomework\bin\debug\unittestinghomework.dll" id="ce96fea1-2a6b-fb0a-6f8f-c50bc4ac719a">
+      <TestCategory>
+        <TestCategoryItem TestCategory="mixed numbers" />
+      </TestCategory>
+      <Execution id="4f84f73f-bcc5-4f42-877a-4a4f7bd1d4ee" />
+      <TestMethod codeBase="C:/Users/Home/Desktop/UnitTestingHomework/UnitTestingHomework/bin/Debug/UnitTestingHomework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestingHomework.SubMSTests, UnitTestingHomework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SubMixedNumbersTest2" />
+    </UnitTest>
+    <UnitTest name="IsPositiveDoubleNumbersMaxValueTest" storage="c:\users\home\desktop\unittestinghomework\unittestinghomework\bin\debug\unittestinghomework.dll" id="6c48e8c4-a5aa-edf8-1390-2951e59c68fc">
+      <TestCategory>
+        <TestCategoryItem TestCategory="double numbers" />
+      </TestCategory>
+      <Execution id="aa889acf-f811-4a58-b4a5-b510bcf19d28" />
+      <TestMethod codeBase="C:/Users/Home/Desktop/UnitTestingHomework/UnitTestingHomework/bin/Debug/UnitTestingHomework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestingHomework.IsPositiveMSTest, UnitTestingHomework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IsPositiveDoubleNumbersMaxValueTest" />
+    </UnitTest>
+    <UnitTest name="MultiplyMixedNumbersTest" storage="c:\users\home\desktop\unittestinghomework\unittestinghomework\bin\debug\unittestinghomework.dll" id="ea295218-4e87-8cec-1b6c-fcd1d06ea3f6">
+      <TestCategory>
+        <TestCategoryItem TestCategory="mixed numbers" />
+      </TestCategory>
+      <Execution id="80fa4bab-0189-4579-a80a-155c34bedbe3" />
+      <TestMethod codeBase="C:/Users/Home/Desktop/UnitTestingHomework/UnitTestingHomework/bin/Debug/UnitTestingHomework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestingHomework.MultiplyMSTests, UnitTestingHomework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MultiplyMixedNumbersTest" />
+    </UnitTest>
+    <UnitTest name="MultiplyByteNumbersTest" storage="c:\users\home\desktop\unittestinghomework\unittestinghomework\bin\debug\unittestinghomework.dll" id="aa07a8dd-2d6b-211d-db6e-832d97cf08c0">
+      <TestCategory>
+        <TestCategoryItem TestCategory="sbyte numbers" />
+      </TestCategory>
+      <Execution id="af8f46a7-9511-456b-871b-46789e0d90cf" />
+      <TestMethod codeBase="C:/Users/Home/Desktop/UnitTestingHomework/UnitTestingHomework/bin/Debug/UnitTestingHomework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestingHomework.MultiplyMSTests, UnitTestingHomework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MultiplyByteNumbersTest" />
+    </UnitTest>
+    <UnitTest name="SinSbyteNumbersTest" storage="c:\users\home\desktop\unittestinghomework\unittestinghomework\bin\debug\unittestinghomework.dll" id="89620b20-2c4b-4559-8d0e-62953b88dc8e">
+      <TestCategory>
+        <TestCategoryItem TestCategory="sbyte numbers" />
+      </TestCategory>
+      <Execution id="e76891b0-6a07-4ea7-ab74-2dab8ee4eda5" />
+      <TestMethod codeBase="C:/Users/Home/Desktop/UnitTestingHomework/UnitTestingHomework/bin/Debug/UnitTestingHomework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestingHomework.SinMSTests, UnitTestingHomework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SinSbyteNumbersTest" />
+    </UnitTest>
+    <UnitTest name="PowMixedNumbersTest" storage="c:\users\home\desktop\unittestinghomework\unittestinghomework\bin\debug\unittestinghomework.dll" id="d9a8715d-381b-0dee-a95c-4c3ac0d115ea">
+      <TestCategory>
+        <TestCategoryItem TestCategory="mixed numbers" />
+      </TestCategory>
+      <Execution id="70379e53-95fa-4e02-9811-2b79ad06d2f0" />
+      <TestMethod codeBase="C:/Users/Home/Desktop/UnitTestingHomework/UnitTestingHomework/bin/Debug/UnitTestingHomework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestingHomework.PowMSTests, UnitTestingHomework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PowMixedNumbersTest" />
+    </UnitTest>
+    <UnitTest name="IsPositiveIntNumbersPositiveTest" storage="c:\users\home\desktop\unittestinghomework\unittestinghomework\bin\debug\unittestinghomework.dll" id="68438b74-7a20-9509-bfbc-65f1d02d18dd">
+      <TestCategory>
+        <TestCategoryItem TestCategory="int numbers" />
+      </TestCategory>
+      <Execution id="6581ae9c-99e1-4246-bff2-c34a997cbfb9" />
+      <TestMethod codeBase="C:/Users/Home/Desktop/UnitTestingHomework/UnitTestingHomework/bin/Debug/UnitTestingHomework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestingHomework.IsPositiveMSTest, UnitTestingHomework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IsPositiveIntNumbersPositiveTest" />
+    </UnitTest>
+    <UnitTest name="IsPositiveIntNumbersNegativeTest" storage="c:\users\home\desktop\unittestinghomework\unittestinghomework\bin\debug\unittestinghomework.dll" id="18f9be67-3061-bf14-a66d-daaab0de8d52">
+      <TestCategory>
+        <TestCategoryItem TestCategory="int numbers" />
+      </TestCategory>
+      <Execution id="2808d150-4f78-455a-ae0f-81f35ae25e5f" />
+      <TestMethod codeBase="C:/Users/Home/Desktop/UnitTestingHomework/UnitTestingHomework/bin/Debug/UnitTestingHomework.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestingHomework.IsPositiveMSTest, UnitTestingHomework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IsPositiveIntNumbersNegativeTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="fd5f0db9-6be2-4bd5-63c9-8e4d016100a6" executionId="04836c5b-6728-4ae0-bb87-2e5daac0504c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6c48e8c4-a5aa-edf8-1390-2951e59c68fc" executionId="aa889acf-f811-4a58-b4a5-b510bcf19d28" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="46dc7d0b-58bd-e03a-b79f-02084e0d9f7f" executionId="3a206037-5b21-4ca8-ae58-255206c62841" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8437a292-0803-05c7-62cc-9e15994d8b06" executionId="b0abe24a-9d29-4968-baed-cdc5971f56f1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="768652fd-fdef-5df4-5c82-92c553df45f7" executionId="d12617b3-2466-4e0d-b68b-c2aa8d628dc8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="828ffa48-2a6d-f353-bd3e-d140936600ef" executionId="2010a29a-61d5-4e5a-bf34-5e737fa5ece2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7f8e3b81-de4a-d66f-2311-35338a82126e" executionId="2b68452c-7b51-4fe5-8090-a2164f72f450" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="84e2d5da-98ca-c041-6007-433a2bf61cd1" executionId="14211bfd-5397-4362-b6a2-fe9af15e38d5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="18f9be67-3061-bf14-a66d-daaab0de8d52" executionId="2808d150-4f78-455a-ae0f-81f35ae25e5f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="68438b74-7a20-9509-bfbc-65f1d02d18dd" executionId="6581ae9c-99e1-4246-bff2-c34a997cbfb9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5a3b6fca-ffc7-1cba-cf31-937ee974e8ed" executionId="281599f0-ec31-4786-abf8-8dbd9f37d7a3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7d0f9913-3201-629d-ccb4-56f195187412" executionId="39cf5385-ca2b-43d6-8b3d-2e5e1ccde38d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d4e0821d-f375-4eef-1c70-38bcf4d1b8dd" executionId="70c1a774-4ca7-4ea9-a89c-5933495c2637" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aa07a8dd-2d6b-211d-db6e-832d97cf08c0" executionId="af8f46a7-9511-456b-871b-46789e0d90cf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="be1708cd-b58a-a441-db11-eee4e4213da0" executionId="71dba6c1-95e1-4f57-970d-e669916367b9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="db383d55-3a01-075d-2f0f-f4b26d150f42" executionId="590d8845-048a-40b5-b588-8abfcd1d76d4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="041b2adc-4ca3-907d-a5fa-ee973551f9fd" executionId="36018a79-f8f1-49fe-bcc8-2eb9dd5ddc82" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="99ff93ca-e34b-c261-d1c6-f4c9bb77d02e" executionId="4eb67843-3f8b-4422-bb41-1ec40fcc187f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ea295218-4e87-8cec-1b6c-fcd1d06ea3f6" executionId="80fa4bab-0189-4579-a80a-155c34bedbe3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="83a53e5f-ff81-954c-8db5-3d23688fc71d" executionId="76a48645-607d-4f88-ba75-7525aa4b856c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2ba4036d-4259-ef2e-06a6-7943154662f9" executionId="56ee8b62-4fea-4472-a2c5-9f419ca9091c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1d1148c7-d9fc-21ec-06ca-6aaffb44c92c" executionId="2f9b09e2-dedf-4c86-8f07-f3975b493b49" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d9a8715d-381b-0dee-a95c-4c3ac0d115ea" executionId="70379e53-95fa-4e02-9811-2b79ad06d2f0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e5619fac-9c0a-f6a5-a017-7d70e44d7d8f" executionId="9c96c1a6-7988-4743-ad18-9c5a410fdfc4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="df4684e8-7788-9aaf-2d5b-297d7682abe4" executionId="5d9fda51-d9b5-46f0-ba8f-3392d016a5d0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="26f3ee1c-687f-2d84-af54-0112e66ab06b" executionId="8e3e5a92-04d3-438c-8fc2-b6516f7636e1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a33c8464-9bb3-c43a-3c5f-78bd0b28219c" executionId="fe0f3cab-4741-40df-95ef-174fae137647" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="94a6cf98-8814-d42a-0227-6bb79c12b88f" executionId="a9108f34-a0a7-415e-9ad4-824f2ec13c14" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="28126a59-4624-51b3-6bab-9835fce91912" executionId="2aec674c-05e0-4dd3-bd8f-7bd352652954" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2d88ff5c-1d93-df2a-6540-37ad64f8388d" executionId="8974738b-54b8-4c10-8c2a-a10087f561de" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="89620b20-2c4b-4559-8d0e-62953b88dc8e" executionId="e76891b0-6a07-4ea7-ab74-2dab8ee4eda5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="46c85fd4-c139-9efc-0e27-f14790c7d917" executionId="789960fa-c70b-4ed5-985d-3a4a831f71ac" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="41e5dd29-418a-24f3-e25b-6e95bb82e829" executionId="35de790f-7c4f-4a70-a4e0-d9aea5750b07" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="245ce892-056d-5fb9-4bd2-efeb13c5713e" executionId="5b833577-5175-4177-8237-60133dba5da4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="855610c7-ff54-0e96-b73e-c560f5a18e40" executionId="32f97566-a5eb-43b5-a484-c5df140da9eb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c5b94fd9-15b2-0531-17d8-c017b65d12a8" executionId="5b31c1ce-0a14-4587-9bbb-9972d921e44e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="165f041d-3404-3a3f-ca14-01011e3ef0c7" executionId="088dc139-4d29-4313-af49-b676cacd9491" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="17b7be58-6acd-6914-6d74-325687f86d65" executionId="eef0a393-91ac-447a-bfd8-5dbea918c010" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3ac3f0c6-e474-55b0-66e8-ea07f98a6b2f" executionId="0369ddcb-e0a6-41f5-aa71-914bdef3e079" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c9325ba3-cbc3-f0da-9c07-f2b4ea261a4d" executionId="63561438-c6a3-49a3-b2a0-92b6d1be87ba" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5ab60717-8b71-c313-f2d7-eb98c08d5ce6" executionId="6e68d8a6-9799-44d5-97e6-82eaad4a07e2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4916647a-3298-f99f-9960-6cbdf33a1d11" executionId="4d0ac519-cfbc-4d13-bdc8-8c8ec286146b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="92fe94c0-eba8-c39e-2116-dc81e1d46801" executionId="443279c6-8cb5-4f17-b79e-258053612c8d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ce96fea1-2a6b-fb0a-6f8f-c50bc4ac719a" executionId="4f84f73f-bcc5-4f42-877a-4a4f7bd1d4ee" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c1a7d578-bebc-0035-668e-a3f7086d9e7d" executionId="5866c831-b884-4a03-a84b-e4f84eb30f26" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e1cefd7d-e32b-4e09-4c28-7dbd3893fad4" executionId="a919fabe-e3cd-4260-9f3b-2042c3ce1760" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="386294a2-8e33-ccd8-4019-8ec6ba82e4ee" executionId="17d770ec-b49a-4151-851f-7bf60498844c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="04836c5b-6728-4ae0-bb87-2e5daac0504c" testId="fd5f0db9-6be2-4bd5-63c9-8e4d016100a6" testName="IsPositiveByteNumbersTest" computerName="HOME-PC" duration="00:00:00.0684419" startTime="2017-01-20T15:25:03.7814743+04:00" endTime="2017-01-20T15:25:04.7265283+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="04836c5b-6728-4ae0-bb87-2e5daac0504c">
+    </UnitTestResult>
+    <UnitTestResult executionId="aa889acf-f811-4a58-b4a5-b510bcf19d28" testId="6c48e8c4-a5aa-edf8-1390-2951e59c68fc" testName="IsPositiveDoubleNumbersMaxValueTest" computerName="HOME-PC" duration="00:00:00.0459722" startTime="2017-01-20T15:25:04.7295285+04:00" endTime="2017-01-20T15:25:04.8165335+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aa889acf-f811-4a58-b4a5-b510bcf19d28">
+    </UnitTestResult>
+    <UnitTestResult executionId="3a206037-5b21-4ca8-ae58-255206c62841" testId="46dc7d0b-58bd-e03a-b79f-02084e0d9f7f" testName="IsPositiveDoubleNumbersMinValueTest" computerName="HOME-PC" duration="00:00:00.0021281" startTime="2017-01-20T15:25:04.8195337+04:00" endTime="2017-01-20T15:25:04.8985382+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3a206037-5b21-4ca8-ae58-255206c62841">
+    </UnitTestResult>
+    <UnitTestResult executionId="b0abe24a-9d29-4968-baed-cdc5971f56f1" testId="8437a292-0803-05c7-62cc-9e15994d8b06" testName="IsPositiveDoubleNumbersNegativeTest" computerName="HOME-PC" duration="00:00:00.0052029" startTime="2017-01-20T15:25:04.9015384+04:00" endTime="2017-01-20T15:25:04.9455409+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b0abe24a-9d29-4968-baed-cdc5971f56f1">
+    </UnitTestResult>
+    <UnitTestResult executionId="d12617b3-2466-4e0d-b68b-c2aa8d628dc8" testId="768652fd-fdef-5df4-5c82-92c553df45f7" testName="IsPositiveDoubleNumbersPositiveTest" computerName="HOME-PC" duration="00:00:00.0092539" startTime="2017-01-20T15:25:04.9495411+04:00" endTime="2017-01-20T15:25:04.9835430+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d12617b3-2466-4e0d-b68b-c2aa8d628dc8">
+    </UnitTestResult>
+    <UnitTestResult executionId="2010a29a-61d5-4e5a-bf34-5e737fa5ece2" testId="828ffa48-2a6d-f353-bd3e-d140936600ef" testName="IsPositiveDoubleNumbersSmallPositiveTest" computerName="HOME-PC" duration="00:00:00.0002897" startTime="2017-01-20T15:25:04.9855432+04:00" endTime="2017-01-20T15:25:05.0235453+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2010a29a-61d5-4e5a-bf34-5e737fa5ece2">
+    </UnitTestResult>
+    <UnitTestResult executionId="2b68452c-7b51-4fe5-8090-a2164f72f450" testId="7f8e3b81-de4a-d66f-2311-35338a82126e" testName="IsPositiveFloatNumbersNegativeTest" computerName="HOME-PC" duration="00:00:00.0033959" startTime="2017-01-20T15:25:05.0265455+04:00" endTime="2017-01-20T15:25:05.0645477+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2b68452c-7b51-4fe5-8090-a2164f72f450">
+    </UnitTestResult>
+    <UnitTestResult executionId="14211bfd-5397-4362-b6a2-fe9af15e38d5" testId="84e2d5da-98ca-c041-6007-433a2bf61cd1" testName="IsPositiveFloatNumbersPositiveTest" computerName="HOME-PC" duration="00:00:00.0097768" startTime="2017-01-20T15:25:05.0875490+04:00" endTime="2017-01-20T15:25:05.1135505+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="14211bfd-5397-4362-b6a2-fe9af15e38d5">
+    </UnitTestResult>
+    <UnitTestResult executionId="2808d150-4f78-455a-ae0f-81f35ae25e5f" testId="18f9be67-3061-bf14-a66d-daaab0de8d52" testName="IsPositiveIntNumbersNegativeTest" computerName="HOME-PC" duration="00:00:00.0301684" startTime="2017-01-20T15:25:05.1175507+04:00" endTime="2017-01-20T15:25:05.1745540+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2808d150-4f78-455a-ae0f-81f35ae25e5f">
+    </UnitTestResult>
+    <UnitTestResult executionId="6581ae9c-99e1-4246-bff2-c34a997cbfb9" testId="68438b74-7a20-9509-bfbc-65f1d02d18dd" testName="IsPositiveIntNumbersPositiveTest" computerName="HOME-PC" duration="00:00:00.0109776" startTime="2017-01-20T15:25:05.1875547+04:00" endTime="2017-01-20T15:25:05.2055557+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6581ae9c-99e1-4246-bff2-c34a997cbfb9">
+    </UnitTestResult>
+    <UnitTestResult executionId="281599f0-ec31-4786-abf8-8dbd9f37d7a3" testId="5a3b6fca-ffc7-1cba-cf31-937ee974e8ed" testName="IsPositiveIntNumbersZeroTest" computerName="HOME-PC" duration="00:00:00.0201954" startTime="2017-01-20T15:25:05.2165564+04:00" endTime="2017-01-20T15:25:05.2545585+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="281599f0-ec31-4786-abf8-8dbd9f37d7a3">
+    </UnitTestResult>
+    <UnitTestResult executionId="39cf5385-ca2b-43d6-8b3d-2e5e1ccde38d" testId="7d0f9913-3201-629d-ccb4-56f195187412" testName="IsPositiveStringNegativeTest" computerName="HOME-PC" duration="00:00:00.0047634" startTime="2017-01-20T15:25:05.2695594+04:00" endTime="2017-01-20T15:25:05.2815601+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="39cf5385-ca2b-43d6-8b3d-2e5e1ccde38d">
+    </UnitTestResult>
+    <UnitTestResult executionId="70c1a774-4ca7-4ea9-a89c-5933495c2637" testId="d4e0821d-f375-4eef-1c70-38bcf4d1b8dd" testName="IsPositiveStringPositiveTest" computerName="HOME-PC" duration="00:00:00.0021649" startTime="2017-01-20T15:25:05.3005612+04:00" endTime="2017-01-20T15:25:05.3205623+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="70c1a774-4ca7-4ea9-a89c-5933495c2637">
+    </UnitTestResult>
+    <UnitTestResult executionId="af8f46a7-9511-456b-871b-46789e0d90cf" testId="aa07a8dd-2d6b-211d-db6e-832d97cf08c0" testName="MultiplyByteNumbersTest" computerName="HOME-PC" duration="00:00:00.0033802" startTime="2017-01-20T15:25:05.3215624+04:00" endTime="2017-01-20T15:25:05.3325630+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="af8f46a7-9511-456b-871b-46789e0d90cf">
+    </UnitTestResult>
+    <UnitTestResult executionId="71dba6c1-95e1-4f57-970d-e669916367b9" testId="be1708cd-b58a-a441-db11-eee4e4213da0" testName="MultiplyDoubleNumbersTest" computerName="HOME-PC" duration="00:00:00.0286705" startTime="2017-01-20T15:25:05.3515641+04:00" endTime="2017-01-20T15:25:05.4015670+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="71dba6c1-95e1-4f57-970d-e669916367b9">
+    </UnitTestResult>
+    <UnitTestResult executionId="590d8845-048a-40b5-b588-8abfcd1d76d4" testId="db383d55-3a01-075d-2f0f-f4b26d150f42" testName="MultiplyFloatNumbersTest" computerName="HOME-PC" duration="00:00:00.0011114" startTime="2017-01-20T15:25:05.4065672+04:00" endTime="2017-01-20T15:25:05.4155678+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="590d8845-048a-40b5-b588-8abfcd1d76d4">
+    </UnitTestResult>
+    <UnitTestResult executionId="36018a79-f8f1-49fe-bcc8-2eb9dd5ddc82" testId="041b2adc-4ca3-907d-a5fa-ee973551f9fd" testName="MultiplyIntNumbersNegativeTest" computerName="HOME-PC" duration="00:00:00.0335336" startTime="2017-01-20T15:25:05.4165678+04:00" endTime="2017-01-20T15:25:05.4725710+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="36018a79-f8f1-49fe-bcc8-2eb9dd5ddc82">
+    </UnitTestResult>
+    <UnitTestResult executionId="4eb67843-3f8b-4422-bb41-1ec40fcc187f" testId="99ff93ca-e34b-c261-d1c6-f4c9bb77d02e" testName="MultiplyIntNumbersZeroTest" computerName="HOME-PC" duration="00:00:00.0100726" startTime="2017-01-20T15:25:05.4775713+04:00" endTime="2017-01-20T15:25:05.5025727+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4eb67843-3f8b-4422-bb41-1ec40fcc187f">
+    </UnitTestResult>
+    <UnitTestResult executionId="80fa4bab-0189-4579-a80a-155c34bedbe3" testId="ea295218-4e87-8cec-1b6c-fcd1d06ea3f6" testName="MultiplyMixedNumbersTest" computerName="HOME-PC" duration="00:00:00.0288625" startTime="2017-01-20T15:25:05.5065730+04:00" endTime="2017-01-20T15:25:05.5525756+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="80fa4bab-0189-4579-a80a-155c34bedbe3">
+    </UnitTestResult>
+    <UnitTestResult executionId="76a48645-607d-4f88-ba75-7525aa4b856c" testId="83a53e5f-ff81-954c-8db5-3d23688fc71d" testName="PowDoubleNumbersTest" computerName="HOME-PC" duration="00:00:00.0634080" startTime="2017-01-20T15:25:05.5555758+04:00" endTime="2017-01-20T15:25:05.6365804+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="76a48645-607d-4f88-ba75-7525aa4b856c">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method UnitTestingHomework.PowMSTests.PowDoubleNumbersTest threw exception: 
+System.NotFiniteNumberException: Wrong input</Message>
+          <StackTrace>    at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at UnitTestingHomework.PowMSTests.PowDoubleNumbersTest() in C:\Users\Home\Desktop\UnitTestingHomework\UnitTestingHomework\PowMSTests.cs:line 30
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="56ee8b62-4fea-4472-a2c5-9f419ca9091c" testId="2ba4036d-4259-ef2e-06a6-7943154662f9" testName="PowFloatNumbersTest" computerName="HOME-PC" duration="00:00:00.0236107" startTime="2017-01-20T15:25:05.6725825+04:00" endTime="2017-01-20T15:25:05.7035842+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="56ee8b62-4fea-4472-a2c5-9f419ca9091c">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method UnitTestingHomework.PowMSTests.PowFloatNumbersTest threw exception: 
+System.NotFiniteNumberException: Wrong input</Message>
+          <StackTrace>    at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at UnitTestingHomework.PowMSTests.PowFloatNumbersTest() in C:\Users\Home\Desktop\UnitTestingHomework\UnitTestingHomework\PowMSTests.cs:line 42
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2f9b09e2-dedf-4c86-8f07-f3975b493b49" testId="1d1148c7-d9fc-21ec-06ca-6aaffb44c92c" testName="PowIntNumbersTest" computerName="HOME-PC" duration="00:00:00.0281984" startTime="2017-01-20T15:25:05.7055843+04:00" endTime="2017-01-20T15:25:05.7495869+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2f9b09e2-dedf-4c86-8f07-f3975b493b49">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method UnitTestingHomework.PowMSTests.PowIntNumbersTest threw exception: 
+System.NotFiniteNumberException: Wrong input</Message>
+          <StackTrace>    at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at UnitTestingHomework.PowMSTests.PowIntNumbersTest() in C:\Users\Home\Desktop\UnitTestingHomework\UnitTestingHomework\PowMSTests.cs:line 18
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="70379e53-95fa-4e02-9811-2b79ad06d2f0" testId="d9a8715d-381b-0dee-a95c-4c3ac0d115ea" testName="PowMixedNumbersTest" computerName="HOME-PC" duration="00:00:00.0048358" startTime="2017-01-20T15:25:05.7545871+04:00" endTime="2017-01-20T15:25:05.7665878+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="70379e53-95fa-4e02-9811-2b79ad06d2f0">
+    </UnitTestResult>
+    <UnitTestResult executionId="9c96c1a6-7988-4743-ad18-9c5a410fdfc4" testId="e5619fac-9c0a-f6a5-a017-7d70e44d7d8f" testName="PowMixedNumbersTest2" computerName="HOME-PC" duration="00:00:00.0176029" startTime="2017-01-20T15:25:05.7695880+04:00" endTime="2017-01-20T15:25:05.7955895+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9c96c1a6-7988-4743-ad18-9c5a410fdfc4">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method UnitTestingHomework.PowMSTests.PowMixedNumbersTest2 threw exception: 
+System.NotFiniteNumberException: Wrong input</Message>
+          <StackTrace>    at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at UnitTestingHomework.PowMSTests.PowMixedNumbersTest2() in C:\Users\Home\Desktop\UnitTestingHomework\UnitTestingHomework\PowMSTests.cs:line 78
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5d9fda51-d9b5-46f0-ba8f-3392d016a5d0" testId="df4684e8-7788-9aaf-2d5b-297d7682abe4" testName="PowMixedNumbersTest3" computerName="HOME-PC" duration="00:00:00.0096482" startTime="2017-01-20T15:25:05.8085902+04:00" endTime="2017-01-20T15:25:05.8345917+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5d9fda51-d9b5-46f0-ba8f-3392d016a5d0">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method UnitTestingHomework.PowMSTests.PowMixedNumbersTest3 threw exception: 
+System.NotFiniteNumberException: Wrong input</Message>
+          <StackTrace>    at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at UnitTestingHomework.PowMSTests.PowMixedNumbersTest3() in C:\Users\Home\Desktop\UnitTestingHomework\UnitTestingHomework\PowMSTests.cs:line 90
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8e3e5a92-04d3-438c-8fc2-b6516f7636e1" testId="26f3ee1c-687f-2d84-af54-0112e66ab06b" testName="PowMixedNumbersTest4" computerName="HOME-PC" duration="00:00:00.0172178" startTime="2017-01-20T15:25:05.8565930+04:00" endTime="2017-01-20T15:25:05.8855946+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8e3e5a92-04d3-438c-8fc2-b6516f7636e1">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method UnitTestingHomework.PowMSTests.PowMixedNumbersTest4 threw exception: 
+System.NotFiniteNumberException: Wrong input</Message>
+          <StackTrace>    at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at UnitTestingHomework.PowMSTests.PowMixedNumbersTest4() in C:\Users\Home\Desktop\UnitTestingHomework\UnitTestingHomework\PowMSTests.cs:line 102
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fe0f3cab-4741-40df-95ef-174fae137647" testId="a33c8464-9bb3-c43a-3c5f-78bd0b28219c" testName="PowStringNumbersTest" computerName="HOME-PC" duration="00:00:00.0280366" startTime="2017-01-20T15:25:05.8995954+04:00" endTime="2017-01-20T15:25:05.9325973+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fe0f3cab-4741-40df-95ef-174fae137647">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method UnitTestingHomework.PowMSTests.PowStringNumbersTest threw exception: 
+System.NotFiniteNumberException: Wrong input</Message>
+          <StackTrace>    at CSharpCalculator.Calculator.Pow(Object a, Object b)
+   at UnitTestingHomework.PowMSTests.PowStringNumbersTest() in C:\Users\Home\Desktop\UnitTestingHomework\UnitTestingHomework\PowMSTests.cs:line 54
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a9108f34-a0a7-415e-9ad4-824f2ec13c14" testId="94a6cf98-8814-d42a-0227-6bb79c12b88f" testName="SinDoubleNumbersTest" computerName="HOME-PC" duration="00:00:00.0346155" startTime="2017-01-20T15:25:05.9455981+04:00" endTime="2017-01-20T15:25:05.9976010+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a9108f34-a0a7-415e-9ad4-824f2ec13c14">
+    </UnitTestResult>
+    <UnitTestResult executionId="2aec674c-05e0-4dd3-bd8f-7bd352652954" testId="28126a59-4624-51b3-6bab-9835fce91912" testName="SinFloatNumbersTest" computerName="HOME-PC" duration="00:00:00.0107796" startTime="2017-01-20T15:25:06.0016013+04:00" endTime="2017-01-20T15:25:06.0176022+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2aec674c-05e0-4dd3-bd8f-7bd352652954">
+    </UnitTestResult>
+    <UnitTestResult executionId="8974738b-54b8-4c10-8c2a-a10087f561de" testId="2d88ff5c-1d93-df2a-6540-37ad64f8388d" testName="SinIntNumbersTest" computerName="HOME-PC" duration="00:00:00.0003972" startTime="2017-01-20T15:25:06.0356032+04:00" endTime="2017-01-20T15:25:06.0476039+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8974738b-54b8-4c10-8c2a-a10087f561de">
+    </UnitTestResult>
+    <UnitTestResult executionId="e76891b0-6a07-4ea7-ab74-2dab8ee4eda5" testId="89620b20-2c4b-4559-8d0e-62953b88dc8e" testName="SinSbyteNumbersTest" computerName="HOME-PC" duration="00:00:00.0377337" startTime="2017-01-20T15:25:06.0496040+04:00" endTime="2017-01-20T15:25:06.1056072+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e76891b0-6a07-4ea7-ab74-2dab8ee4eda5">
+    </UnitTestResult>
+    <UnitTestResult executionId="789960fa-c70b-4ed5-985d-3a4a831f71ac" testId="46c85fd4-c139-9efc-0e27-f14790c7d917" testName="SinStringNumbersTestDouble" computerName="HOME-PC" duration="00:00:00.0080078" startTime="2017-01-20T15:25:06.1106075+04:00" endTime="2017-01-20T15:25:06.1256084+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="789960fa-c70b-4ed5-985d-3a4a831f71ac">
+    </UnitTestResult>
+    <UnitTestResult executionId="35de790f-7c4f-4a70-a4e0-d9aea5750b07" testId="41e5dd29-418a-24f3-e25b-6e95bb82e829" testName="SinStringNumbersTestInt" computerName="HOME-PC" duration="00:00:00.0038481" startTime="2017-01-20T15:25:06.1366090+04:00" endTime="2017-01-20T15:25:06.1616104+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="35de790f-7c4f-4a70-a4e0-d9aea5750b07">
+    </UnitTestResult>
+    <UnitTestResult executionId="5b833577-5175-4177-8237-60133dba5da4" testId="245ce892-056d-5fb9-4bd2-efeb13c5713e" testName="SqrtDoubleNumbersTest" computerName="HOME-PC" duration="00:00:00.0392666" startTime="2017-01-20T15:25:06.1636105+04:00" endTime="2017-01-20T15:25:06.2236140+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5b833577-5175-4177-8237-60133dba5da4">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;0&gt;. Actual:&lt;1.27882758806651E-08&gt;. </Message>
+          <StackTrace>   at UnitTestingHomework.SqrtMSTests.SqrtDoubleNumbersTest() in C:\Users\Home\Desktop\UnitTestingHomework\UnitTestingHomework\SqrtMSTests.cs:line 24
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="32f97566-a5eb-43b5-a484-c5df140da9eb" testId="855610c7-ff54-0e96-b73e-c560f5a18e40" testName="SqrtFloatNumbersTest" computerName="HOME-PC" duration="00:00:00.0255589" startTime="2017-01-20T15:25:06.2346146+04:00" endTime="2017-01-20T15:25:06.2656164+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="32f97566-a5eb-43b5-a484-c5df140da9eb">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;0&gt;. Actual:&lt;1.2788275863208E-08&gt;. </Message>
+          <StackTrace>   at UnitTestingHomework.SqrtMSTests.SqrtFloatNumbersTest() in C:\Users\Home\Desktop\UnitTestingHomework\UnitTestingHomework\SqrtMSTests.cs:line 42
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5b31c1ce-0a14-4587-9bbb-9972d921e44e" testId="c5b94fd9-15b2-0531-17d8-c017b65d12a8" testName="SqrtIntNumbersTest" computerName="HOME-PC" duration="00:00:00.0021830" startTime="2017-01-20T15:25:06.2796172+04:00" endTime="2017-01-20T15:25:06.3026185+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5b31c1ce-0a14-4587-9bbb-9972d921e44e">
+    </UnitTestResult>
+    <UnitTestResult executionId="088dc139-4d29-4313-af49-b676cacd9491" testId="165f041d-3404-3a3f-ca14-01011e3ef0c7" testName="SqrtSbyteNumbersTest" computerName="HOME-PC" duration="00:00:00.0304292" startTime="2017-01-20T15:25:06.3046186+04:00" endTime="2017-01-20T15:25:06.3536214+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="088dc139-4d29-4313-af49-b676cacd9491">
+    </UnitTestResult>
+    <UnitTestResult executionId="eef0a393-91ac-447a-bfd8-5dbea918c010" testId="17b7be58-6acd-6914-6d74-325687f86d65" testName="SqrtStringNumbersTestDouble" computerName="HOME-PC" duration="00:00:00.0086750" startTime="2017-01-20T15:25:06.3596218+04:00" endTime="2017-01-20T15:25:06.3836231+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eef0a393-91ac-447a-bfd8-5dbea918c010">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method UnitTestingHomework.SqrtMSTests.SqrtStringNumbersTestDouble threw exception: 
+System.FormatException: Input string was not in a correct format.</Message>
+          <StackTrace>    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer&amp; number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value)
+   at CSharpCalculator.Calculator.Sqrt(Object a)
+   at UnitTestingHomework.SqrtMSTests.SqrtStringNumbersTestDouble() in C:\Users\Home\Desktop\UnitTestingHomework\UnitTestingHomework\SqrtMSTests.cs:line 51
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0369ddcb-e0a6-41f5-aa71-914bdef3e079" testId="3ac3f0c6-e474-55b0-66e8-ea07f98a6b2f" testName="SqrtStringNumbersTestInt" computerName="HOME-PC" duration="00:00:00.0333078" startTime="2017-01-20T15:25:06.3846232+04:00" endTime="2017-01-20T15:25:06.4366262+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0369ddcb-e0a6-41f5-aa71-914bdef3e079">
+    </UnitTestResult>
+    <UnitTestResult executionId="63561438-c6a3-49a3-b2a0-92b6d1be87ba" testId="c9325ba3-cbc3-f0da-9c07-f2b4ea261a4d" testName="SubDoubleNumbersTest" computerName="HOME-PC" duration="00:00:00.0311066" startTime="2017-01-20T15:25:06.4456267+04:00" endTime="2017-01-20T15:25:06.4946295+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="63561438-c6a3-49a3-b2a0-92b6d1be87ba">
+    </UnitTestResult>
+    <UnitTestResult executionId="6e68d8a6-9799-44d5-97e6-82eaad4a07e2" testId="5ab60717-8b71-c313-f2d7-eb98c08d5ce6" testName="SubFloatNumbersTest" computerName="HOME-PC" duration="00:00:00.0233764" startTime="2017-01-20T15:25:06.5016299+04:00" endTime="2017-01-20T15:25:06.5466325+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6e68d8a6-9799-44d5-97e6-82eaad4a07e2">
+    </UnitTestResult>
+    <UnitTestResult executionId="4d0ac519-cfbc-4d13-bdc8-8c8ec286146b" testId="4916647a-3298-f99f-9960-6cbdf33a1d11" testName="SubIntNumbersTest" computerName="HOME-PC" duration="00:00:00.0333730" startTime="2017-01-20T15:25:06.5556330+04:00" endTime="2017-01-20T15:25:06.6096361+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4d0ac519-cfbc-4d13-bdc8-8c8ec286146b">
+    </UnitTestResult>
+    <UnitTestResult executionId="443279c6-8cb5-4f17-b79e-258053612c8d" testId="92fe94c0-eba8-c39e-2116-dc81e1d46801" testName="SubMixedNumbersTest" computerName="HOME-PC" duration="00:00:00.0005101" startTime="2017-01-20T15:25:06.6216367+04:00" endTime="2017-01-20T15:25:06.6326374+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="443279c6-8cb5-4f17-b79e-258053612c8d">
+    </UnitTestResult>
+    <UnitTestResult executionId="4f84f73f-bcc5-4f42-877a-4a4f7bd1d4ee" testId="ce96fea1-2a6b-fb0a-6f8f-c50bc4ac719a" testName="SubMixedNumbersTest2" computerName="HOME-PC" duration="00:00:00.0366054" startTime="2017-01-20T15:25:06.6336374+04:00" endTime="2017-01-20T15:25:06.6926408+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4f84f73f-bcc5-4f42-877a-4a4f7bd1d4ee">
+    </UnitTestResult>
+    <UnitTestResult executionId="5866c831-b884-4a03-a84b-e4f84eb30f26" testId="c1a7d578-bebc-0035-668e-a3f7086d9e7d" testName="SubMixedNumbersTest3" computerName="HOME-PC" duration="00:00:00.0126686" startTime="2017-01-20T15:25:06.6966410+04:00" endTime="2017-01-20T15:25:06.7146421+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5866c831-b884-4a03-a84b-e4f84eb30f26">
+    </UnitTestResult>
+    <UnitTestResult executionId="a919fabe-e3cd-4260-9f3b-2042c3ce1760" testId="e1cefd7d-e32b-4e09-4c28-7dbd3893fad4" testName="SubMixedNumbersTest4" computerName="HOME-PC" duration="00:00:00.0019983" startTime="2017-01-20T15:25:06.7196423+04:00" endTime="2017-01-20T15:25:06.7396435+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a919fabe-e3cd-4260-9f3b-2042c3ce1760">
+    </UnitTestResult>
+    <UnitTestResult executionId="17d770ec-b49a-4151-851f-7bf60498844c" testId="386294a2-8e33-ccd8-4019-8ec6ba82e4ee" testName="SubStringNumbersTest" computerName="HOME-PC" duration="00:00:00.0312702" startTime="2017-01-20T15:25:06.7426437+04:00" endTime="2017-01-20T15:25:06.7966468+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="17d770ec-b49a-4151-851f-7bf60498844c">
+    </UnitTestResult>
+  </Results>
+</TestRun>
