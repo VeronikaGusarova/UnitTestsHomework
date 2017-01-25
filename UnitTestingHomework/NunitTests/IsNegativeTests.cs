@@ -1,10 +1,10 @@
 ﻿using System;
 using NUnit.Framework;
 
-namespace UnitTestingHomework
+namespace UnitTestingHomework.NunitTests
 {
     [TestFixture]
-    public class IsNegativeNUnitTests:BaseTest
+    public class IsNegativeTests:BaseTest
     {
         [TestCase(0)]
         [TestCase(8674654)]

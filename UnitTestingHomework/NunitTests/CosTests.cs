@@ -1,10 +1,10 @@
 ﻿using System;
 using NUnit.Framework;
 
-namespace UnitTestingHomework
+namespace UnitTestingHomework.NunitTests
 {
     [TestFixture]
-    public class CosNUnitTests : BaseTest
+    public class CosTests : BaseTest
     {
         [TestCase(0)]
         [TestCase(-19646456)]

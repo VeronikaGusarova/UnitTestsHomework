@@ -1,10 +1,10 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace UnitTestingHomework
+namespace UnitTestingHomework.MsTest
 {
     [TestClass]
-    public class PowMSTests:BaseTest
+    public class PowTests:BaseTest
     {
         [TestMethod]
         [TestCategory("int numbers")]

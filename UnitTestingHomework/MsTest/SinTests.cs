@@ -1,63 +1,63 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace UnitTestingHomework
+namespace UnitTestingHomework.MsTest
 {
     [TestClass]
-    public class SqrtMSTests:BaseTest
+    public class SinTests:BaseTest
     {
         [TestMethod]
         [TestCategory("int numbers")]
-        public void SqrtIntNumbersTest()
+        public void SinIntNumbersTest()
         {
             int[] values = { 0, -687686, 787876, int.MinValue, int.MaxValue };
-            foreach (var num in values)
-                Assert.AreEqual(Math.Sqrt(num), calculator.Sqrt(num));
+            foreach(var num in values)
+                Assert.AreEqual(Math.Sin(num), calculator.Sin(num));
         }
 
         [TestMethod]
         [TestCategory("double numbers")]
-        public void SqrtDoubleNumbersTest()
+        public void SinDoubleNumbersTest()
         {
             double[] values = { 16.354e-17, -78.78768, 24.86776, double.MinValue, double.MaxValue };
             foreach (var num in values)
-                Assert.AreEqual(Math.Sqrt(num), calculator.Sqrt(num));
+                Assert.AreEqual(Math.Sin(num), calculator.Sin(num));
         }
 
         [TestMethod]
         [TestCategory("sbyte numbers")]
-        public void SqrtSbyteNumbersTest()
+        public void SinSbyteNumbersTest()
         {
             sbyte[] values = { 76, -45, sbyte.MinValue, sbyte.MaxValue };
             foreach (var num in values)
-                Assert.AreEqual(Math.Sqrt(num), calculator.Sqrt(num));
+                Assert.AreEqual(Math.Sin(num), calculator.Sin(num));
         }
 
         [TestMethod]
         [TestCategory("float numbers")]
-        public void SqrtFloatNumbersTest()
+        public void SinFloatNumbersTest()
         {
             float[] values = { 16.354e-17f, -78.78768f, 24.86776f };
             foreach (var num in values)
-                Assert.AreEqual(Math.Sqrt(num), calculator.Sqrt(num));
+                Assert.AreEqual(Math.Sin(num), calculator.Sin(num));
         }
 
         [TestMethod]
         [TestCategory("string numbers")]
-        public void SqrtStringNumbersTestDouble()
+        public void SinStringNumbersTestDouble()
         {
-            string[] values = { "16.354e-17", "-7879.7978" };
+            string[] values = { "16.354e-17", "-7879.7978"};
             foreach (var num in values)
-                Assert.AreEqual(Math.Sqrt(Convert.ToDouble(num)), calculator.Sqrt(num));
+                Assert.AreEqual(Math.Sin(Convert.ToDouble(num)), calculator.Sin(num));
         }
 
         [TestMethod]
         [TestCategory("string numbers")]
-        public void SqrtStringNumbersTestInt()
+        public void SinStringNumbersTestInt()
         {
             string[] values = { "78", "-8" };
             foreach (var num in values)
-                Assert.AreEqual(Math.Sqrt(Convert.ToDouble(num)), calculator.Sqrt(num));
+                Assert.AreEqual(Math.Sin(Convert.ToDouble(num)), calculator.Sin(num));
         }
 
     }

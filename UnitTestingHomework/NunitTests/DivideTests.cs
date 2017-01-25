@@ -1,10 +1,10 @@
 ﻿using System;
 using NUnit.Framework;
 
-namespace UnitTestingHomework
+namespace UnitTestingHomework.NunitTests
 {
     [TestFixture]
-    public class DivideNUnitTests:BaseTest
+    public class DivideTests:BaseTest
     {
         [TestCase(8, 3)]
         [TestCase(-5, -6)]

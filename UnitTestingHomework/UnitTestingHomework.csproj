@@ -54,19 +54,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="NunitTests\AbsNunitTests.cs" />
-    <Compile Include="NunitTests\AddNunitTests.cs" />
+    <Compile Include="NunitTests\AbsTests.cs" />
+    <Compile Include="NunitTests\AddTests.cs" />
     <Compile Include="Base\BaseTest.cs" />
-    <Compile Include="NunitTests\CosNunitTests.cs" />
-    <Compile Include="NunitTests\DivideNunitTests.cs" />
-    <Compile Include="NunitTests\IsNegativeNunitTests.cs" />
-    <Compile Include="MsTest\IsPositiveMsTest.cs" />
-    <Compile Include="MsTest\MultiplyMsTests.cs" />
-    <Compile Include="MsTest\PowMsTests.cs" />
+    <Compile Include="NunitTests\CosTests.cs" />
+    <Compile Include="NunitTests\DivideTests.cs" />
+    <Compile Include="NunitTests\IsNegativeTests.cs" />
+    <Compile Include="MsTest\IsPositiveTests.cs" />
+    <Compile Include="MsTest\MultiplyTests.cs" />
+    <Compile Include="MsTest\PowTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="MsTest\SinMsTests.cs" />
-    <Compile Include="MsTest\SqrtMsTests.cs" />
-    <Compile Include="MsTest\SubMsTests.cs" />
+    <Compile Include="MsTest\SinTests.cs" />
+    <Compile Include="MsTest\SqrtTests.cs" />
+    <Compile Include="MsTest\SubTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -1,10 +1,10 @@
 ﻿using System;
 using NUnit.Framework;
 
-namespace UnitTestingHomework
+namespace UnitTestingHomework.NunitTests
 {
     [TestFixture]
-    public class AddNUnitTests:BaseTest
+    public class AddTests:BaseTest
     {
         [TestCase(0, 0)]
         [TestCase(-1, -1)]

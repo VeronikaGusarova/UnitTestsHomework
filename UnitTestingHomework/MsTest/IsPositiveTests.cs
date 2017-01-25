@@ -1,9 +1,9 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace UnitTestingHomework
+namespace UnitTestingHomework.MsTest
 {
     [TestClass]
-    public class IsPositiveMSTest:BaseTest
+    public class IsPositiveTests:BaseTest
     {
         [TestMethod]
         [TestCategory("int numbers")]
