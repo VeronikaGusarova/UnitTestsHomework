@@ -12,7 +12,7 @@ namespace UnitTestingHomework
         {
             int num1 = 0;
             int num2 = 7;
-            Assert.AreEqual(calculator.Multiply(num1, num2), num1 * num2);
+            Assert.AreEqual(num1 * num2, calculator.Multiply(num1, num2));
         }
 
         [TestMethod]
@@ -21,7 +21,7 @@ namespace UnitTestingHomework
         {
             int num1 = -4;
             int num2 = 7;
-            Assert.AreEqual(calculator.Multiply(num1, num2), num1 * num2);
+            Assert.AreEqual(num1 * num2, calculator.Multiply(num1, num2));
         }
 
         [TestMethod]
@@ -30,7 +30,7 @@ namespace UnitTestingHomework
         {
             sbyte num1 = -7;
             sbyte num2 = 23;
-            Assert.AreEqual(calculator.Multiply(num1, num2), num1 * num2);
+            Assert.AreEqual(num1 * num2, calculator.Multiply(num1, num2));
         }
 
         [TestMethod]
@@ -42,7 +42,7 @@ namespace UnitTestingHomework
                 new Tuple<double, double>(16.354e-17, 1.87e-5)
             };
             foreach(var num in pairs)
-                Assert.AreEqual(calculator.Multiply(num.Item1, num.Item2), num.Item1 * num.Item2);
+                Assert.AreEqual(num.Item1 * num.Item2, calculator.Multiply(num.Item1, num.Item2));
         }
 
         [TestMethod]
@@ -55,7 +55,7 @@ namespace UnitTestingHomework
             };
             foreach (var num in pairs)
             {
-                Assert.AreEqual(calculator.Multiply(num.Item1, num.Item2), Convert.ToDouble(num.Item1) * Convert.ToDouble(num.Item2));
+                Assert.AreEqual(Convert.ToDouble(num.Item1) * Convert.ToDouble(num.Item2), calculator.Multiply(num.Item1, num.Item2));
             }               
         }
 
@@ -69,7 +69,7 @@ namespace UnitTestingHomework
             };
             foreach (var num in pairs)
             {
-                Assert.AreEqual(calculator.Multiply(num.Item1, num.Item2), num.Item1 * Convert.ToDouble(num.Item2));
+                Assert.AreEqual(num.Item1 * Convert.ToDouble(num.Item2), calculator.Multiply(num.Item1, num.Item2));
             }
         }
 

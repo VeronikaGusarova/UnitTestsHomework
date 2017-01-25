@@ -13,14 +13,14 @@ namespace UnitTestingHomework
         [TestCase(int.MinValue)]
         public void CosIntNumbersTest(int num)
         {
-            Assert.AreEqual(calculator.Cos(num), Math.Cos(num));
+            Assert.AreEqual(Math.Cos(num), calculator.Cos(num));
         }
 
         [TestCase(-127)]
         [TestCase(127)]
         public void CosByteNumbersTest(sbyte num)
         {
-            Assert.AreEqual(calculator.Cos(num), Math.Cos(num));
+            Assert.AreEqual(Math.Cos(num), calculator.Cos(num));
         }
 
         [TestCase(16.354e-17)]
@@ -30,7 +30,7 @@ namespace UnitTestingHomework
         [TestCase(double.MinValue)]
         public void CosDoubleNumbersTest(double num)
         {
-            Assert.AreEqual(calculator.Cos(num), Math.Cos(num));
+            Assert.AreEqual(Math.Cos(num), calculator.Cos(num));
         }
 
         [TestCase(-3187.09f)]
@@ -38,7 +38,7 @@ namespace UnitTestingHomework
         [TestCase(float.MinValue)]
         public void CosFloatNumbersTest(float num)
         {
-            Assert.AreEqual(calculator.Cos(num), Math.Cos(num));
+            Assert.AreEqual(Math.Cos(num), calculator.Cos(num));
         }
 
         [TestCase("0")]
@@ -48,11 +48,8 @@ namespace UnitTestingHomework
         public void CosStringNumbersTest(string num)
         {
             double parsedNum;
-
-            if (double.TryParse(num, out parsedNum))
-                Assert.AreEqual(calculator.Cos(num), Math.Cos(parsedNum));
-            else
-                Assert.Fail("Unable to parse input value '{0}' to double", num);
+            double.TryParse(num, out parsedNum);
+            Assert.AreEqual(Math.Cos(parsedNum), calculator.Cos(num));
         }
     }
 }

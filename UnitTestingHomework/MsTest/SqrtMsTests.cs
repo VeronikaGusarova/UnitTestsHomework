@@ -12,7 +12,7 @@ namespace UnitTestingHomework
         {
             int[] values = { 0, -687686, 787876, int.MinValue, int.MaxValue };
             foreach (var num in values)
-                Assert.AreEqual(calculator.Sqrt(num), Math.Sqrt(num));
+                Assert.AreEqual(Math.Sqrt(num), calculator.Sqrt(num));
         }
 
         [TestMethod]
@@ -21,7 +21,7 @@ namespace UnitTestingHomework
         {
             double[] values = { 16.354e-17, -78.78768, 24.86776, double.MinValue, double.MaxValue };
             foreach (var num in values)
-                Assert.AreEqual(calculator.Sqrt(num), Math.Sqrt(num));
+                Assert.AreEqual(Math.Sqrt(num), calculator.Sqrt(num));
         }
 
         [TestMethod]
@@ -30,7 +30,7 @@ namespace UnitTestingHomework
         {
             sbyte[] values = { 76, -45, sbyte.MinValue, sbyte.MaxValue };
             foreach (var num in values)
-                Assert.AreEqual(calculator.Sqrt(num), Math.Sqrt(num));
+                Assert.AreEqual(Math.Sqrt(num), calculator.Sqrt(num));
         }
 
         [TestMethod]
@@ -39,7 +39,7 @@ namespace UnitTestingHomework
         {
             float[] values = { 16.354e-17f, -78.78768f, 24.86776f };
             foreach (var num in values)
-                Assert.AreEqual(calculator.Sqrt(num), Math.Sqrt(num));
+                Assert.AreEqual(Math.Sqrt(num), calculator.Sqrt(num));
         }
 
         [TestMethod]
@@ -48,7 +48,7 @@ namespace UnitTestingHomework
         {
             string[] values = { "16.354e-17", "-7879.7978" };
             foreach (var num in values)
-                Assert.AreEqual(calculator.Sqrt(num), Math.Sqrt(Convert.ToDouble(num)));
+                Assert.AreEqual(Math.Sqrt(Convert.ToDouble(num)), calculator.Sqrt(num));
         }
 
         [TestMethod]
@@ -57,7 +57,7 @@ namespace UnitTestingHomework
         {
             string[] values = { "78", "-8" };
             foreach (var num in values)
-                Assert.AreEqual(calculator.Sqrt(num), Math.Sqrt(Convert.ToDouble(num)));
+                Assert.AreEqual(Math.Sqrt(Convert.ToDouble(num)), calculator.Sqrt(num));
         }
 
     }
